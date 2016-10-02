@@ -1,3 +1,9 @@
+## 0.0.2 (October 02, 2016)
+
+### Sources
+
+* Include the babel transpiled code inside the "dist/" folder
+
 ## 0.0.1 (October 02, 2016)
 
 ### Guitar Database

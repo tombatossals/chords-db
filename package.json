@@ -1,11 +1,13 @@
 {
   "name": "@tombatossals/chords-db",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "String Instruments Chords Database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "standard": "standard *.js db/"
+    "standard": "standard *.js db/",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
