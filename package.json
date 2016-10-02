@@ -1,6 +1,6 @@
 {
   "name": "@tombatossals/chords-db",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "String Instruments Chords Database",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,10 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
     "standard": "^8.3.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.16.0"
   }
 }

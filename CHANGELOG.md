@@ -1,3 +1,9 @@
+## 0.0.3 (October 02, 2016)
+
+### Sources
+
+* Working transpiled babel version
+
 ## 0.0.2 (October 02, 2016)
 
 ### Sources
