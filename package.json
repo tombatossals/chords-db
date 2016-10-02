@@ -1,0 +1,31 @@
+{
+  "name": "@tombatossals/chords-db",
+  "version": "0.0.1",
+  "description": "String Instruments Chords Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "standard *.js db/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tombatossals/chords-db.git"
+  },
+  "keywords": [
+    "music",
+    "node",
+    "javascript"
+  ],
+  "author": {
+    "name": "David Rubert",
+    "email": "david.rubert@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tombatossals/chords-db/issues"
+  },
+  "homepage": "https://github.com/tombatossals/chords-db#readme",
+  "devDependencies": {
+    "standard": "^8.3.0"
+  }
+}
