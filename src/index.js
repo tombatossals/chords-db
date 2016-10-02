@@ -1,5 +1,5 @@
 import { default as guitar } from './db/guitar'
 
-export default {
+export {
   guitar
 }
