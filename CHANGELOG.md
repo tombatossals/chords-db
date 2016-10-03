@@ -1,3 +1,13 @@
+## 0.0.5 (October 03, 2016)
+
+### Schema
+
+* Changed schema structure, allowing multiple versions of the same chord
+
+### Chords
+
+* Added all chords of Cmajor
+
 ## 0.0.4 (October 02, 2016)
 
 ### Sources
