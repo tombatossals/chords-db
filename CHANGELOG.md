@@ -1,3 +1,9 @@
+## 0.0.6 (October 04, 2016)
+
+### Database
+
+* Solved some bugs with the Cmajor alternative chords
+
 ## 0.0.5 (October 03, 2016)
 
 ### Schema
