@@ -4,7 +4,7 @@
   "description": "String Instruments Chords Database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "standard": "standard *.js db/",
     "build": "babel src --out-dir dist",
     "prepublish": "npm run build"
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
     "babel-preset-latest": "^6.16.0",
+    "jest": "^16.0.0",
     "standard": "^8.3.0"
   },
   "dependencies": {

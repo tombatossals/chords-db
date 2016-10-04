@@ -27,6 +27,7 @@ export default {
   },
   {
     suffix: '6',
+    alternate: ['maj6', 'major6', 'M6'],
     name: 'sixth'
   },
   {
@@ -99,7 +100,7 @@ export default {
   },
   {
     suffix: 'm13',
-    category: 'minor thirteenth'
+    name: 'minor thirteenth'
   },
   {
     suffix: '7',
@@ -542,20 +543,40 @@ export default {
     },
     {
       key: 'C',
+      suffix: '6',
+      positions: [{
+        frets: [ -1, 1, 2, 2, 3, -1 ],
+        fingers: [ 0, 1, 3, 2, 4, 0 ],
+        barres: []
+      },
+      {
+        frets: [ 5, 5, 5, 5, 3, -1 ],
+        fingers: [ 3, 3, 3, 3, 1, -1 ],
+        barres: [{ fret: 5, strings: [ 1, 4 ] }]
+      },
+      {
+        frets: [ 8, 5, 5, 7, -1, -1 ],
+        fingers: [ 4, 1, 1, 3, 0, 0 ],
+        barres: [{ fret: 5, strings: [ 2, 3 ] }]
+      },
+      {
+        frets: [ 8, 10, 9, 10, -1, -1 ],
+        fingers: [ 1, 4, 2, 3, 0, 0 ],
+        barres: []
+      },
+      {
+        frets: [ 12, 10, 12, 10, -1, -1 ],
+        fingers: [ 4, 1, 3, 1, 0, 0 ],
+        barres: [{ fret: 10, strings: [ 2, 4 ] }]
+      }]
+    },
+    {
+      key: 'C',
       suffix: '5',
       positions: [{
         firstFret: 2,
         frets: [ -1, -1, 5, 5, 3, -1 ],
         fingers: [ 0, 0, 3, 2, 1, 0 ],
-        barres: []
-      }]
-    },
-    {
-      key: 'C',
-      suffix: '6',
-      positions: [{
-        frets: [ 3, 1, 2, 2, 0, -1 ],
-        fingers: [ 4, 1, 3, 2, 0, 0 ],
         barres: []
       }]
     },
@@ -575,6 +596,26 @@ export default {
         frets: [ 0, 0, 0, 2, 3, -1 ],
         fingers: [ 0, 0, 0, 2, 3, 0 ],
         barres: []
+      },
+      {
+        frets: [ 3, 5, 4, 5, 3, -1 ],
+        fingers: [ 1, 4, 2, 3, 1, 0 ],
+        barres: [{ fret: 3, strings: [ 1, 5 ] }]
+      },
+      {
+        frets: [ 7, 5, 5, 5, -1, -1 ],
+        fingers: [ 3, 1, 1, 1, -1, -1 ],
+        barres: [{ fret: 5, strings: [ 2, 4 ] }]
+      },
+      {
+        frets: [ -1, 8, 9, 9, -1, 8 ],
+        fingers: [ 0, 2, 4, 3, 0, 1 ],
+        barres: []
+      },
+      {
+        frets: [ 12, 12, 12, 10, -1, -1 ],
+        fingers: [ 3, 3, 3, 1, 0, 0 ],
+        barres: [{ fret: 12, strings: [ 1, 3 ] }]
       }]
     }],
     'D': [{
