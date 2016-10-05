@@ -27,6 +27,15 @@ describe('Guitar Chords', function () {
     Object.keys(_guitar2.default.chords).map(function (key) {
       describe('Key ' + key + ' chords', function () {
         var chords = _guitar2.default.chords[key];
+
+        it('Should not have duplicated suffixes', function () {
+          var seen = new Set();
+          var duplicates = chords.some(function (chord) {
+            return seen.size === seen.add(chord.suffix).size;
+          });
+          expect(duplicates).toBe(false);
+        });
+
         chords.map(function (chord) {
           return describe('Chord ' + chord.key + chord.suffix, function () {
             describe('General properties', function () {

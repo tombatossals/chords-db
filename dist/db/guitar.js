@@ -488,22 +488,6 @@ exports.default = {
       }]
     }, {
       key: 'C',
-      suffix: '5',
-      positions: [{
-        frets: [-1, -1, 5, 5, 3, -1],
-        fingers: [0, 0, 3, 2, 1, 0],
-        barres: []
-      }]
-    }, {
-      key: 'C',
-      suffix: '7',
-      positions: [{
-        frets: [0, 1, 3, 2, 3, -1],
-        fingers: [0, 1, 4, 2, 3, 0],
-        barres: []
-      }]
-    }, {
-      key: 'C',
       suffix: 'maj7',
       positions: [{
         frets: [0, 0, 0, 2, 3, -1],
@@ -525,6 +509,50 @@ exports.default = {
         frets: [12, 12, 12, 10, -1, -1],
         fingers: [3, 3, 3, 1, 0, 0],
         barres: [{ fret: 12, strings: [1, 3] }]
+      }]
+    }, {
+      key: 'C',
+      suffix: 'sus4',
+      positions: [{
+        frets: [-1, 1, 0, 3, 3, -1],
+        fingers: [0, 1, 0, 4, 3, 0],
+        barres: []
+      }, {
+        frets: [-1, 6, 5, 5, 3, -1],
+        fingers: [0, 4, 3, 3, 1, 0],
+        barres: []
+      }]
+    }, {
+      key: 'C',
+      suffix: 'sus2',
+      positions: [{
+        frets: [-1, 1, 0, 0, 3, -1],
+        fingers: [0, 1, 0, 0, 3, 0],
+        barres: []
+      }, {
+        frets: [3, 3, 5, 5, 3, -1],
+        fingers: [1, 1, 4, 3, 1, 0],
+        barres: [{ fret: 3, strings: [1, 5] }]
+      }, {
+        frets: [10, 13, 12, 10, -1, -1],
+        fingers: [1, 4, 3, 1, 0, 0],
+        barres: [{ fret: 10, strings: [1, 4] }]
+      }]
+    }, {
+      key: 'C',
+      suffix: '5',
+      positions: [{
+        frets: [-1, -1, 5, 5, 3, -1],
+        fingers: [0, 0, 3, 2, 1, 0],
+        barres: []
+      }]
+    }, {
+      key: 'C',
+      suffix: '7',
+      positions: [{
+        frets: [0, 1, 3, 2, 3, -1],
+        fingers: [0, 1, 4, 2, 3, 0],
+        barres: []
       }]
     }],
     'D': [{

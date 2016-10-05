@@ -1,3 +1,13 @@
+## 0.0.9 (October 05, 2016)
+
+### Database
+
+* More C chords
+
+### Testing
+
+* Added more tests
+
 ## 0.0.8 (October 05, 2016)
 
 ### Database

@@ -17,6 +17,13 @@ describe('Guitar Chords', () => {
     Object.keys(guitar.chords).map(key => {
       describe(`Key ${key} chords`, () => {
         const chords = guitar.chords[key]
+
+        it(`Should not have duplicated suffixes`, () => {
+          let seen = new Set()
+          const duplicates = chords.some(chord => seen.size === seen.add(chord.suffix).size)
+          expect(duplicates).toBe(false)
+        })
+
         chords.map(chord =>
           describe(`Chord ${chord.key}${chord.suffix}`, () => {
             describe('General properties', () => {
