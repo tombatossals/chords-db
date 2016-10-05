@@ -1,4 +1,14 @@
-## 0.0.6 (October 04, 2016)
+## 0.0.8 (October 05, 2016)
+
+### Database
+
+* Fixed bugs in some chords
+
+### Testing
+
+* Added more tests
+
+## 0.0.7 (October 04, 2016)
 
 ### Database
 
