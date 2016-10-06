@@ -11,7 +11,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 describe('Guitar Chords', function () {
   describe('Strings', function () {
     return it('Should have 6 strings', function () {
-      return expect(_guitar2.default.strings).toEqual(6);
+      return expect(_guitar2.default.main.strings).toEqual(6);
     });
   });
 

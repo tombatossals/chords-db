@@ -1,3 +1,13 @@
+## 0.0.10 (October 06, 2016)
+
+### Schema
+
+* Splitted the schema in multiple files
+
+### Database
+
+* More C chords
+
 ## 0.0.9 (October 05, 2016)
 
 ### Database

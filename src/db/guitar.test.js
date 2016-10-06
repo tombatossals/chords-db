@@ -4,7 +4,7 @@ import guitar from './guitar'
 
 describe('Guitar Chords', () => {
   describe('Strings', () =>
-    it('Should have 6 strings', () => expect(guitar.strings).toEqual(6))
+    it('Should have 6 strings', () => expect(guitar.main.strings).toEqual(6))
   )
 
   describe('Types', () =>
