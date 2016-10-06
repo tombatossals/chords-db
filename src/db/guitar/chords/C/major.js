@@ -1,6 +1,6 @@
-export default{
+export default {
   key: 'C',
-  suffix: '',
+  suffix: 'major',
   positions: [{
     frets: [ 0, 1, 0, 2, 3, -1 ],
     fingers: [ 0, 1, 0, 2, 3, 0 ],

@@ -1,6 +1,6 @@
 export default {
   key: 'C',
-  suffix: 'm',
+  suffix: 'minor',
   positions: [{
     frets: [ -1, 1, 0, 1, 3, -1 ],
     fingers: [ 0, 1, 0, 2, 4, 0 ],
