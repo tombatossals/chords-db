@@ -3,7 +3,7 @@ export default {
   suffix: '7sus',
   positions: [{
     frets: [ 3, 6, 3, 5, 3, -1 ],
-    fingers: [ 1, 4, 1, 3, 1, -1 ],
+    fingers: [ 1, 4, 1, 3, 1, 0 ],
     barres: [3]
   },
   {
@@ -13,7 +13,7 @@ export default {
   },
   {
     frets: [ 13, 11, 12, 10, -1, -1 ],
-    fingers: [ 4, 2, 3, 1, -1, -1 ],
+    fingers: [ 4, 2, 3, 1, 0, 0 ],
     barres: [10]
   }]
 }

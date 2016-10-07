@@ -3,8 +3,7 @@ export default {
   suffix: '7',
   positions: [{
     frets: [ 0, 1, 3, 2, 3, -1 ],
-    fingers: [ 0, 1, 4, 2, 3, 0 ],
-    barres: []
+    fingers: [ 0, 1, 4, 2, 3, 0 ]
   },
   {
     frets: [ 3, 5, 3, 5, 3, -1 ],

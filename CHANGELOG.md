@@ -1,3 +1,9 @@
+## 0.0.11 (October 06, 2016)
+
+### Database
+
+* More C chords
+
 ## 0.0.10 (October 06, 2016)
 
 ### Schema

@@ -12,7 +12,6 @@ exports.default = {
     barres: [1]
   }, {
     frets: [-1, 9, 9, 8, -1, 8],
-    fingers: [0, 4, 3, 2, 0, 1],
-    barres: []
+    fingers: [0, 4, 3, 2, 0, 1]
   }]
 };
