@@ -34,9 +34,20 @@ describe('Guitar Chords', () => {
 
             describe(`Positions`, () =>
               chord.positions.map((position, index) => {
-                it(`The ${index} position fingers array should have 6 values`, () => expect(position.fingers.length).toEqual(6))
-                it(`The ${index} position fingers array should have values lower than 5`, () => expect(Math.max(...position.fingers)).toBeLessThan(5))
-                it(`The ${index} position fingers array should have values higher or equal to 0`, () => expect(Math.min(...position.fingers)).toBeGreaterThanOrEqual(0))
+                if (position.fingers) {
+                  it(`The ${index} position fingers array should have 6 values`, () => expect(position.fingers.length).toEqual(6))
+                  it(`The ${index} position fingers array should have values lower than 5`, () => expect(Math.max(...position.fingers)).toBeLessThan(5))
+                  it(`The ${index} position fingers array should have values higher or equal to 0`, () => expect(Math.min(...position.fingers)).toBeGreaterThanOrEqual(0))
+                }
+              })
+            )
+
+            describe(`Barres`, () =>
+              chord.positions.map((position, index) => {
+                position.barres && position.barres.map(barre => {
+                  it(`The barre ${barre} should have frets`, () => expect(position.frets.indexOf(barre)).not.toEqual(-1))
+                  it(`The barre ${barre} should have two strings at least`, () => expect(position.frets.indexOf(barre)).not.toEqual(position.frets.lastIndexOf(barre)))
+                })
               })
             )
           })

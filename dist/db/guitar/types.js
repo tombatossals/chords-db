@@ -102,6 +102,7 @@ exports.default = [{
   name: 'seventh, flat ninth'
 }, {
   suffix: '7#9',
+  alternate: ['7sharp9'],
   name: 'seventh, sharp ninth'
 }, {
   suffix: '7b5(#9)',

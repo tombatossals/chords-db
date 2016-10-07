@@ -1,3 +1,13 @@
+## 0.0.12 (October 07, 2016)
+
+### Schema
+
+* No need for barres explicit strings
+
+### Database
+
+* D chords
+
 ## 0.0.11 (October 06, 2016)
 
 ### Database

@@ -129,6 +129,7 @@ export default [
   },
   {
     suffix: '7#9',
+    alternate: ['7sharp9'],
     name: 'seventh, sharp ninth'
   },
   {
