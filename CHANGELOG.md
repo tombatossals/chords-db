@@ -1,3 +1,9 @@
+## 0.0.14 (October 08, 2016)
+
+### Database
+
+* E chords completed
+
 ## 0.0.13 (October 08, 2016)
 
 ### Database
