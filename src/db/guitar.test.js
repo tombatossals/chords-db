@@ -35,9 +35,9 @@ describe('Guitar Chords', () => {
             describe(`Positions`, () =>
               chord.positions.map((position, index) => {
                 if (position.fingers) {
-                  it(`The ${index} position fingers array should have 6 values`, () => expect(position.fingers.length).toEqual(6))
-                  it(`The ${index} position fingers array should have values lower than 5`, () => expect(Math.max(...position.fingers)).toBeLessThan(5))
-                  it(`The ${index} position fingers array should have values higher or equal to 0`, () => expect(Math.min(...position.fingers)).toBeGreaterThanOrEqual(0))
+                  it(`The ${index + 1} position fingers array should have 6 values`, () => expect(position.fingers.length).toEqual(6))
+                  it(`The ${index + 1} position fingers array should have values lower than 5`, () => expect(Math.max(...position.fingers)).toBeLessThan(5))
+                  it(`The ${index + 1} position fingers array should have values higher or equal to 0`, () => expect(Math.min(...position.fingers)).toBeGreaterThanOrEqual(0))
                 }
               })
             )

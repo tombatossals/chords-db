@@ -53,13 +53,13 @@ describe('Guitar Chords', function () {
             describe('Positions', function () {
               return chord.positions.map(function (position, index) {
                 if (position.fingers) {
-                  it('The ' + index + ' position fingers array should have 6 values', function () {
+                  it('The ' + (index + 1) + ' position fingers array should have 6 values', function () {
                     return expect(position.fingers.length).toEqual(6);
                   });
-                  it('The ' + index + ' position fingers array should have values lower than 5', function () {
+                  it('The ' + (index + 1) + ' position fingers array should have values lower than 5', function () {
                     return expect(Math.max.apply(Math, _toConsumableArray(position.fingers))).toBeLessThan(5);
                   });
-                  it('The ' + index + ' position fingers array should have values higher or equal to 0', function () {
+                  it('The ' + (index + 1) + ' position fingers array should have values higher or equal to 0', function () {
                     return expect(Math.min.apply(Math, _toConsumableArray(position.fingers))).toBeGreaterThanOrEqual(0);
                   });
                 }
