@@ -1,3 +1,9 @@
+## 0.0.13 (October 08, 2016)
+
+### Database
+
+* D chords completed
+
 ## 0.0.12 (October 07, 2016)
 
 ### Schema
