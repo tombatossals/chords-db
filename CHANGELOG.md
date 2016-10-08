@@ -1,3 +1,9 @@
+## 0.0.15 (October 08, 2016)
+
+### Database
+
+* F chords completed
+
 ## 0.0.14 (October 08, 2016)
 
 ### Database
