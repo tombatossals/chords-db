@@ -1,3 +1,13 @@
+## 0.1.0 (October 09, 2016)
+
+### Schema
+
+* Abbreviated methods for frets and fingers using strings
+
+### Database
+
+* G chords completed
+
 ## 0.0.15 (October 08, 2016)
 
 ### Database

@@ -4,7 +4,7 @@ export default {
   positions: [{
     frets: [ -1, 1, 1, 2, 1, -1 ],
     fingers: [ 0, 1, 1, 2, 1, 0 ],
-    barres: [1]
+    barres: 1
   },
   {
     frets: [ -1, 9, 9, 8, -1, 8 ],

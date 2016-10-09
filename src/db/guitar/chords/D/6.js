@@ -12,12 +12,12 @@ export default {
   {
     frets: [ 7, 7, 7, 7, 5, -1 ],
     fingers: [ 3, 3, 3, 3, 1, 0 ],
-    barres: [7]
+    barres: 7
   },
   {
     frets: [ 10, 7, 7, 9, -1, -1 ],
     fingers: [ 4, 1, 1, 3, 0, 0 ],
-    barres: [7]
+    barres: 7
   },
   {
     frets: [ 10, 12, 11, 12, -1, -1 ],

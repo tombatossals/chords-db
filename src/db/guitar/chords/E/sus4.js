@@ -8,11 +8,11 @@ export default {
   {
     frets: [ 5, 5, 4, 2, -1, -1 ],
     fingers: [ 4, 4, 3, 1, 0, 0 ],
-    barres: [5]
+    barres: 5
   },
   {
     frets: [ -1, 10, 9, 9, 7, -1 ],
     fingers: [ 0, 4, 3, 3, 1, 0 ],
-    barres: [9]
+    barres: 9
   }]
 }
