@@ -2,8 +2,8 @@ export default {
   key: 'C',
   suffix: '9',
   positions: [{
-    frets: [ 3, 3, 3, 2, 3, -1 ],
-    fingers: [ 3, 3, 3, 1, 2, 0 ],
+    frets: '33323x',
+    fingers: '333120',
     barres: 3
   }]
 }

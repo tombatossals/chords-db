@@ -1,3 +1,13 @@
+## 0.1.1 (October 09, 2016)
+
+### Schema
+
+* Auto-generation of JSON database with all the needed properties
+
+### Database
+
+* A chords added
+
 ## 0.1.0 (October 09, 2016)
 
 ### Schema

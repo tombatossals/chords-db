@@ -20,7 +20,7 @@ export default {
     barres: 7
   },
   {
-    frets: 'FCCCAF',
+    frets: 'xCCCAx',
     fingers: '033310',
     barres: 12
   }]

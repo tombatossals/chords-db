@@ -1,6 +1,6 @@
 {
   "name": "@tombatossals/chords-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "String Instruments Chords Database",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "babel-cli": "^6.16.0"
   },
   "jest": {
-    "verbose": false
+    "verbose": false,
+    "bail": true
   }
 }
