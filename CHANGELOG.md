@@ -1,3 +1,7 @@
+## 0.1.3 (October 10, 2016)
+
+* Fixed some tests and database errors
+
 ## 0.1.2 (October 09, 2016)
 
 ### Database

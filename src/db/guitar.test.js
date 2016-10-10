@@ -35,7 +35,7 @@ describe('Guitar Chords', () => {
           describe(`Positions`, () =>
             chord.positions.map((position, index) => {
               const frets = Array.isArray(position.frets) ? position.frets : strChord2array(position.frets)
-              const effectiveFrets = frets.filter(f => f !== -1)
+              const effectiveFrets = frets.filter(f => f > 0)
               describe(`Frets`, () => {
                 it(`The ${index + 1} position frets array should have 6 values`, () => expect(frets.length).toEqual(6))
                 it(`The ${index + 1} position frets array should have values lower than 16`, () => expect(Math.max(...frets)).toBeLessThan(16))
