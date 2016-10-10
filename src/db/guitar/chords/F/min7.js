@@ -2,18 +2,18 @@ export default {
   key: 'F',
   suffix: 'min7',
   positions: [{
-    frets: [ 1, 4, 1, 1, 3, 1 ],
-    fingers: [ 1, 4, 1, 1, 3, 1 ],
+    frets: '141131',
+    fingers: '141131',
     barres: 1
   },
   {
-    frets: [ 4, 4, 5, 3, -1, -1 ],
-    fingers: [ 2, 2, 3, 1, 0, 0 ],
+    frets: '4453xx',
+    fingers: '223100',
     barres: 4
   },
   {
-    frets: [ 8, 9, 8, 10, 8, -1 ],
-    fingers: [ 1, 2, 1, 3, 1, 0 ],
+    frets: '898a8x',
+    fingers: '121310',
     barres: 8
   }]
 }

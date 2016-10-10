@@ -1,3 +1,9 @@
+## 0.1.2 (October 09, 2016)
+
+### Database
+
+* Added the B chords
+
 ## 0.1.1 (October 09, 2016)
 
 ### Schema

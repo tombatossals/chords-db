@@ -2,25 +2,25 @@ export default {
   key: 'E',
   suffix: '7',
   positions: [{
-    frets: [ 0, 3, 1, 0, 2, 0 ],
-    fingers: [ 0, 4, 1, 0, 2, 0 ]
+    frets: '031020',
+    fingers: '041020'
   },
   {
-    frets: [ 4, 3, 4, 2, -1, -1 ],
-    fingers: [ 4, 2, 3, 1, 0, 0 ]
+    frets: '4342xx',
+    fingers: '423100'
   },
   {
-    frets: [ -1, 5, 7, 6, 7, -1 ],
-    fingers: [ 0, 1, 4, 2, 3, 0 ]
+    frets: 'x5767x',
+    fingers: '014230'
   },
   {
-    frets: [ 7, 9, 7, 9, 7, -1 ],
-    fingers: [ 1, 4, 1, 3, 1, 0 ],
+    frets: '79797x',
+    fingers: '141310',
     barres: 7
   },
   {
-    frets: [ 10, 9, 9, 9, -1, -1 ],
-    fingers: [ 2, 1, 1, 1, 0, 0 ],
+    frets: 'a999xx',
+    fingers: '211100',
     barres: 9
   }]
 }
