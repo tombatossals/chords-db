@@ -2,18 +2,18 @@ export default {
   key: 'F',
   suffix: 'sus4',
   positions: [{
-    frets: [ 1, 1, 3, 3, 3, 1 ],
-    fingers: [ 1, 1, 4, 3, 2, 1 ],
+    frets: '113331',
+    fingers: '114321',
     barres: 1
   },
   {
-    frets: [ 6, 6, 5, 3, -1, -1 ],
-    fingers: [ 4, 4, 3, 1, 0, 0 ],
+    frets: '6653xx',
+    fingers: '443100',
     barres: 6
   },
   {
-    frets: [ -1, 11, 10, 10, 8, -1 ],
-    fingers: [ 0, 4, 3, 3, 1, 0 ],
+    frets: 'xbaa8x',
+    fingers: '043310',
     barres: 10
   }]
 }

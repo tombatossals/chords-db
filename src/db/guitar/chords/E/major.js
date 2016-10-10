@@ -2,26 +2,26 @@ export default {
   key: 'E',
   suffix: 'major',
   positions: [{
-    frets: [ 0, 0, 1, 2, 2, 0 ],
-    fingers: [ 0, 0, 1, 3, 2, 0 ]
+    frets: '001220',
+    fingers: '001320'
   },
   {
-    frets: [ 4, 5, 4, 2, -1, -1 ],
-    fingers: [ 3, 4, 2, 1, 0, 0 ]
+    frets: '4542xx',
+    fingers: '342100'
   },
   {
-    frets: [ 4, 5, 4, 6, -1, -1 ],
-    fingers: [ 1, 2, 1, 3, 0, 0 ],
+    frets: '4546xx',
+    fingers: '121300',
     barres: 4
   },
   {
-    frets: [ -1, 9, 9, 9, 7, -1 ],
-    fingers: [ 0, 3, 3, 3, 1, 0 ],
+    frets: 'x9997x',
+    fingers: '033310',
     barres: 9
   },
   {
-    frets: [ -1, 9, 9, 9, 11, -1 ],
-    fingers: [ 0, 1, 1, 1, 3, 0 ],
+    frets: 'x999bx',
+    fingers: '011130',
     barres: 9
   }]
 }

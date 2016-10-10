@@ -2,12 +2,12 @@ export default {
   key: 'E',
   suffix: '13',
   positions: [{
-    frets: [ -1, 5, 6, 6, 5, -1 ],
-    fingers: [ 0, 2, 4, 3, 1, 0 ]
+    frets: 'x5665x',
+    fingers: '024310'
   },
   {
-    frets: [ 9, 7, 7, 6, 7, -1 ],
-    fingers: [ 4, 3, 3, 1, 2, 0 ],
+    frets: '97767x',
+    fingers: '433120',
     barres: 7
   }]
 }

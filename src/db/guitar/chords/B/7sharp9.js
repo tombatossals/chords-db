@@ -1,8 +1,8 @@
 export default {
-  key: 'F',
+  key: 'B',
   suffix: '7#9',
   positions: [{
-    frets: 'x9878x',
-    fingers: '043230'
+    frets: 'x3212x',
+    fingers: '043120'
   }]
 }
