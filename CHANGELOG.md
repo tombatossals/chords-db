@@ -1,3 +1,9 @@
+## 0.1.4 (October 12, 2016)
+
+### Database
+
+* Added first sharp chord: C#
+
 ## 0.1.3 (October 10, 2016)
 
 * Fixed some tests and database errors

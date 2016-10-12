@@ -14,7 +14,7 @@ describe('Guitar Chords', () => {
     )
   )
 
-  Object.keys(guitar.chords).map(key => {
+  Object.keys(guitar.chords).map(key =>
     describe(`Key ${key} chords`, () => {
       const chords = guitar.chords[key]
 
@@ -27,7 +27,7 @@ describe('Guitar Chords', () => {
       chords.map(chord =>
         describe(`Chord ${chord.key}${chord.suffix}`, () => {
           describe('General properties', () => {
-            it(`The chord ${key}${chord.suffix} should have a defined key property`, () => expect(chord.key).toEqual(key))
+            it(`The chord ${key}${chord.suffix} should have a defined key property`, () => expect(chord.key).toEqual(key.replace('sharp', '#')))
             it(`The chord ${key}${chord.suffix} should have a defined suffix property`, () => expect(chord.suffix).toBeDefined())
             it(`The chord ${key}${chord.suffix} should have a list of positions`, () => expect(chord.positions).toBeInstanceOf(Array))
           })
@@ -65,5 +65,5 @@ describe('Guitar Chords', () => {
         })
       )
     })
-  })
+  )
 })
