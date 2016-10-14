@@ -1,3 +1,9 @@
+## 0.1.5 (October 14, 2016)
+
+### Database
+
+* Added Eb, F#, Ab chords
+
 ## 0.1.4 (October 12, 2016)
 
 ### Database
