@@ -8,6 +8,7 @@ import G from './G'
 import A from './A'
 import Ab from './Ab'
 import B from './B'
+import Bb from './Bb'
 
 export default {
   C,
@@ -19,5 +20,6 @@ export default {
   G,
   A,
   Ab,
-  B
+  B,
+  Bb
 }
