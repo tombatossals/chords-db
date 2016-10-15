@@ -4,6 +4,7 @@ import D from './D'
 import Eb from './Eb'
 import E from './E'
 import F from './F'
+import Fsharp from './F#'
 import G from './G'
 import A from './A'
 import Ab from './Ab'
@@ -17,9 +18,10 @@ export default {
   Eb,
   E,
   F,
+  Fsharp,
   G,
-  A,
   Ab,
-  B,
-  Bb
+  A,
+  Bb,
+  B
 }
