@@ -26,7 +26,8 @@ const processPosition = position => {
     baseFret: processbaseFret(frets),
     barres: processBarres(position.barres, baseFret),
     fingers: processFingers(position.fingers),
-    frets: processFrets(frets, baseFret)
+    frets: processFrets(frets, baseFret),
+    midi: chord2midi(frets)
   })
 }
 
@@ -43,3 +44,12 @@ const processChords = chords =>
 
 export const generate = instrument =>
   Object.assign(instrument, { chords: processChords(instrument.chords) })
+
+const MIDIstrings = [ 68, 63, 59, 54, 49, 44 ]
+
+const string2midi = (fret, string) =>
+  MIDIstrings[string] + fret
+
+const chord2midi = frets =>
+  frets.filter(fret => fret >= 0).map((fret, string) =>
+    string2midi(fret, string))
