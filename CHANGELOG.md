@@ -1,3 +1,9 @@
+## 0.1.6 (October 17, 2016)
+
+### Instruments
+
+* Added Ukelele
+
 ## 0.1.5 (October 15, 2016)
 
 ### Database
