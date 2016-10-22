@@ -1,3 +1,13 @@
+## 0.1.7 (October 22, 2016)
+
+### Schema
+
+* Added the number of frets to be shown on a rendered chord
+
+### Database
+
+* More Ukelele Chords
+
 ## 0.1.6 (October 17, 2016)
 
 ### Instruments
