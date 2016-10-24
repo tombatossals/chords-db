@@ -1,3 +1,9 @@
+## 0.1.8 (October 24, 2016)
+
+### Database
+
+* Added all missing ukelele chords
+
 ## 0.1.7 (October 22, 2016)
 
 ### Schema

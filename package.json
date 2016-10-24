@@ -1,6 +1,6 @@
 {
   "name": "@tombatossals/chords-db",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "String Instruments Chords Database",
   "main": "index.js",
   "scripts": {

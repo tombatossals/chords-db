@@ -39,7 +39,7 @@ describe('Guitar Chords', () => {
               describe(`Frets`, () => {
                 it(`The ${index + 1} position frets array should have 6 values`, () => expect(frets.length).toEqual(6))
                 it(`The ${index + 1} position frets array should have values lower than 16`, () => expect(Math.max(...frets)).toBeLessThan(16))
-                it(`The ${index + 1} position frets array should have at most 4 fingers of distance`, () => expect(Math.max(...effectiveFrets) - Math.min(...effectiveFrets)).toBeLessThan(5))
+                it(`The ${index + 1} position frets array should have at most 4 fingers of distance`, () => expect(Math.max(...effectiveFrets) - Math.min(...effectiveFrets)).toBeLessThanOrEqual(guitar.main.fretsOnChord))
               })
 
               if (position.fingers) {
