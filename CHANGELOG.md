@@ -1,3 +1,9 @@
+## 0.1.9 (October 29, 2016)
+
+### Database
+
+* Added the instrument name and type to the database.
+
 ## 0.1.8 (October 24, 2016)
 
 ### Database
