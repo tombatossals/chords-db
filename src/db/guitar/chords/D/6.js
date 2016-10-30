@@ -2,25 +2,25 @@ export default {
   key: 'D',
   suffix: '6',
   positions: [{
-    frets: '2020xx',
+    frets: 'xx0202',
     fingers: '201000'
   },
   {
-    frets: 'x3445x',
+    frets: 'x5443x',
     fingers: '013240'
   },
   {
-    frets: '77775x',
+    frets: 'x57777',
     fingers: '333310',
     barres: 7
   },
   {
-    frets: 'a779xx',
+    frets: 'xx977a',
     fingers: '411300',
     barres: 7
   },
   {
-    frets: 'acbcxx',
+    frets: 'xxcbca',
     fingers: '142300'
   }]
 }

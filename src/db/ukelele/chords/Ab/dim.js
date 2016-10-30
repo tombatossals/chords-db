@@ -2,7 +2,7 @@ export default {
   key: 'Ab',
   suffix: 'dim',
   positions: [{
-    frets: '2424',
+    frets: '4242',
     barres: 2
   }]
 }

@@ -2,26 +2,26 @@ export default {
   key: 'Ab',
   suffix: 'maj7',
   positions: [{
-    frets: '3111xx',
+    frets: 'xx1113',
     fingers: '311100',
     barres: 1
   },
   {
-    frets: 'x455x4',
+    frets: '4x554x',
     fingers: '024301'
   },
   {
-    frets: '8886xx',
+    frets: 'xx6888',
     fingers: '333100',
     barres: 8
   },
   {
-    frets: '888abx',
+    frets: 'xba888',
     fingers: '111340',
     barres: 8
   },
   {
-    frets: 'bdcdbx',
+    frets: 'xbdcdb',
     fingers: '142310',
     barres: 11
   }]

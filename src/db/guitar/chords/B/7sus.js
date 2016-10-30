@@ -2,17 +2,17 @@ export default {
   key: 'B',
   suffix: '7sus',
   positions: [{
-    frets: '25242x',
+    frets: 'x24252',
     fingers: '141310',
     barres: 2
   },
   {
-    frets: '779797',
+    frets: '797977',
     fingers: '114131',
     barres: 7
   },
   {
-    frets: 'cab9xx',
+    frets: 'xx9bac',
     fingers: '423100'
   }]
 }

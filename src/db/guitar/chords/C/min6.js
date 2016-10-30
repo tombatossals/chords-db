@@ -2,11 +2,11 @@ export default {
   key: 'C',
   suffix: 'min6',
   positions: [{
-    frets: 'x887x8',
+    frets: '8x788x',
     fingers: '043102'
   },
   {
-    frets: 'bacaxx',
+    frets: 'xxacab',
     fingers: '213100',
     barres: 10
   }]

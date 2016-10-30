@@ -2,17 +2,17 @@ export default {
   key: 'F#',
   suffix: 'sus4',
   positions: [{
-    frets: '224442',
+    frets: '244422',
     fingers: '114321',
     barres: 2
   },
   {
-    frets: '7764xx',
+    frets: 'xx4677',
     fingers: '443100',
     barres: 7
   },
   {
-    frets: 'xcbb9x',
+    frets: 'x9bbcx',
     fingers: '043310',
     barres: 11
   }]

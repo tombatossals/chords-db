@@ -1,3 +1,9 @@
+## 0.2.0 (October 30, 2016)
+
+### Database
+
+* Reverse chord notation as the standard.
+
 ## 0.1.9 (October 29, 2016)
 
 ### Database

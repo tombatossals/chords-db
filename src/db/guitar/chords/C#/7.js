@@ -2,26 +2,26 @@ export default {
   key: 'C#',
   suffix: '7',
   positions: [{
-    frets: 'x2434x',
+    frets: 'x4342x',
     fingers: '014230'
   },
   {
-    frets: '46464x',
+    frets: 'x46464',
     fingers: '141310',
     barres: 4
   },
   {
-    frets: '7666xx',
+    frets: 'xx6667',
     fingers: '211100',
     barres: 6
   },
   {
-    frets: '99a9b9',
+    frets: '9b9a99',
     fingers: '112131',
     barres: 9
   },
   {
-    frets: 'dcdbxx',
+    frets: 'xxbdcd',
     fingers: '423100'
   }]
 }

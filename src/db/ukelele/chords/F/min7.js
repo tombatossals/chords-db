@@ -2,7 +2,7 @@ export default {
   key: 'F',
   suffix: 'min7',
   positions: [{
-    frets: '3131',
+    frets: '1313',
     barres: 1
   }]
 }

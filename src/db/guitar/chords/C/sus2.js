@@ -2,16 +2,16 @@ export default {
   key: 'C',
   suffix: 'sus2',
   positions: [{
-    frets: 'x1003x',
+    frets: 'x3001x',
     fingers: '010030'
   },
   {
-    frets: '33553x',
+    frets: 'x35533',
     fingers: '114310',
     barres: 3
   },
   {
-    frets: 'adcaxx',
+    frets: 'xxacda',
     fingers: '143100',
     barres: 10
   }]

@@ -2,7 +2,7 @@ export default {
   key: 'A',
   suffix: '7#9',
   positions: [{
-    frets: '8867xx',
+    frets: 'xx7688',
     fingers: '431200'
   }]
 }

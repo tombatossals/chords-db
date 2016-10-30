@@ -2,6 +2,6 @@ export default {
   key: 'A',
   suffix: 'dim',
   positions: [{
-    frets: '0535'
+    frets: '5350'
   }]
 }

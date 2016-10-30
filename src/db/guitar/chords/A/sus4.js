@@ -2,15 +2,15 @@ export default {
   key: 'A',
   suffix: 'sus4',
   positions: [{
-    frets: '03220x',
+    frets: 'x02230',
     fingers: '042100'
   },
   {
-    frets: 'x5770x',
+    frets: 'x0775x',
     fingers: '014300'
   },
   {
-    frets: 'aa97xx',
+    frets: 'xx79aa',
     fingers: '443100',
     barres: 10
   }]

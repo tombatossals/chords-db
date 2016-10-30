@@ -2,12 +2,12 @@ export default {
   key: 'Ab',
   suffix: '13',
   positions: [{
-    frets: '1134x4',
+    frets: '4x4311',
     fingers: '112403',
     barres: 1
   },
   {
-    frets: 'dbbabx',
+    frets: 'xbabbd',
     fingers: '433120',
     barres: 11
   }]

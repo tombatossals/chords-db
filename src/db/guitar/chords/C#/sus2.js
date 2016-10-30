@@ -2,11 +2,11 @@ export default {
   key: 'C#',
   suffix: 'sus2',
   positions: [{
-    frets: '44664x',
+    frets: 'x46644',
     fingers: '114310'
   },
   {
-    frets: 'bedbxx',
+    frets: 'xxbdeb',
     fingers: '143100',
     barres: 11
   }]

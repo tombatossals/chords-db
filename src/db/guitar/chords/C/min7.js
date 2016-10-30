@@ -2,21 +2,21 @@ export default {
   key: 'C',
   suffix: 'min7',
   positions: [{
-    frets: '34353x',
+    frets: 'x35343',
     fingers: '121310',
     barres: 3
   },
   {
-    frets: 'x888x8',
+    frets: '8x888x',
     fingers: '033302',
     barres: 8
   },
   {
-    frets: 'bbcaxx',
+    frets: 'xxacbb',
     fingers: '223100'
   },
   {
-    frets: 'x888x8',
+    frets: '8x888x',
     fingers: '033302',
     barres: 8
   }]

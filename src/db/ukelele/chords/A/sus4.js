@@ -2,6 +2,6 @@ export default {
   key: 'A',
   suffix: 'sus4',
   positions: [{
-    frets: '4431'
+    frets: '1344'
   }]
 }

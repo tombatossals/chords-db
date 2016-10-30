@@ -2,25 +2,25 @@ export default {
   key: 'A',
   suffix: 'minor',
   positions: [{
-    frets: '01220x',
+    frets: 'x02210',
     fingers: '013200'
   },
   {
-    frets: 'xx2235',
+    frets: '5322xx',
     fingers: '001124',
     barres: 2
   },
   {
-    frets: '555775',
+    frets: '577555',
     fingers: '111431',
     barres: 5
   },
   {
-    frets: '8a97xx',
+    frets: 'xx79a8',
     fingers: '243100'
   },
   {
-    frets: 'ca9axx',
+    frets: 'xxa9ac',
     fingers: '431200'
   }]
 }

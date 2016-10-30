@@ -2,12 +2,12 @@ export default {
   key: 'Eb',
   suffix: 'sus2',
   positions: [{
-    frets: '1431xx',
+    frets: 'xx1341',
     fingers: '143100',
     barres: 1
   },
   {
-    frets: '66886x',
+    frets: 'x68866',
     fingers: '114310',
     barres: 6
   }]

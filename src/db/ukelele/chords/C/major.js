@@ -2,7 +2,7 @@ export default {
   key: 'C',
   suffix: 'major',
   positions: [{
-    frets: '3000',
-    fingers: '3000'
+    frets: '0003',
+    fingers: '0003'
   }]
 }

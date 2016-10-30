@@ -2,7 +2,7 @@ export default {
   key: 'Gb',
   suffix: 'sus2',
   positions: [{
-    frets: '4211',
+    frets: '1124',
     barres: 1
   }]
 }

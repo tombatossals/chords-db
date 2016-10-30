@@ -2,24 +2,24 @@ export default {
   key: 'G',
   suffix: '7',
   positions: [{
-    frets: '100023',
-    fingers: '100023'
+    frets: '320001',
+    fingers: '320001'
   },
   {
-    frets: '364353',
+    frets: '353463',
     fingers: '142131',
     barres: 3
   },
   {
-    frets: '7675xx',
+    frets: 'xx5767',
     fingers: '423100'
   },
   {
-    frets: 'x8a9ax',
+    frets: 'xa9a8x',
     fingers: '014230'
   },
   {
-    frets: 'acacax',
+    frets: 'xacaca',
     fingers: '141310',
     barres: 10
   }]

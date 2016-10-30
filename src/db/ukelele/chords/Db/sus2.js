@@ -2,6 +2,6 @@ export default {
   key: 'Db',
   suffix: 'sus2',
   positions: [{
-    frets: '4431'
+    frets: '1344'
   }]
 }

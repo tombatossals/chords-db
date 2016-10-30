@@ -2,26 +2,26 @@ export default {
   key: 'B',
   suffix: 'minor',
   positions: [{
-    frets: '23442x',
+    frets: 'x24432',
     fingers: '124310',
     barres: 2
   },
   {
-    frets: 'x7445x',
+    frets: 'x5447x',
     fingers: '041120',
     barres: 4
   },
   {
-    frets: '777997',
+    frets: '799777',
     fingers: '111431',
     barres: 7
   },
   {
-    frets: 'acb9xx',
+    frets: 'xx9bca',
     fingers: '243100'
   },
   {
-    frets: 'ecbcxx',
+    frets: 'xxcbce',
     fingers: '431200'
   }]
 }

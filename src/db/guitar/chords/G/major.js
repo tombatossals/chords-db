@@ -2,25 +2,25 @@ export default {
   key: 'G',
   suffix: 'major',
   positions: [{
-    frets: '300023',
+    frets: '320003',
     fingers: '300012'
   },
   {
-    frets: '334553',
+    frets: '355433',
     fingers: '112431',
     barres: 3
   },
   {
-    frets: '7875xx',
+    frets: 'xx5787',
     fingers: '342100'
   },
   {
-    frets: '7879xx',
+    frets: 'xx9787',
     fingers: '121300',
     barres: 7
   },
   {
-    frets: 'xCCCAx',
+    frets: 'xACCCx',
     fingers: '033310',
     barres: 12
   }]

@@ -2,7 +2,7 @@ export default {
   key: 'B',
   suffix: 'major',
   positions: [{
-    frets: '2234',
+    frets: '4322',
     barres: 2
   }]
 }

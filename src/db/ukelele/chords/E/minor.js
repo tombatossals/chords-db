@@ -2,6 +2,6 @@ export default {
   key: 'E',
   suffix: 'minor',
   positions: [{
-    frets: '2340'
+    frets: '0432'
   }]
 }
