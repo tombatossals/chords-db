@@ -1,3 +1,9 @@
+## 0.2.1 (October 30, 2016)
+
+### Database
+
+* Rebuild DB.
+
 ## 0.2.0 (October 30, 2016)
 
 ### Database
