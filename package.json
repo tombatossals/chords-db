@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
-    "babel-preset-latest": "^6.16.0",
-    "jest": "^16.0.1",
-    "standard": "^8.3.0"
+    "babel-preset-latest": "^6.22.0",
+    "jest": "^19.0.2",
+    "standard": "^8.6.0"
   },
   "dependencies": {
-    "babel-cli": "^6.16.0"
+    "babel-cli": "^6.23.0"
   },
   "jest": {
     "verbose": false,
