@@ -1,3 +1,9 @@
+## 0.2.2 (Febraury 28, 2017)
+
+### Database
+
+* Updated dependencies and better chord generation
+
 ## 0.2.1 (October 30, 2016)
 
 ### Database
