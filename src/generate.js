@@ -4,19 +4,20 @@ import fs from 'fs'
 import path from 'path'
 
 const createDirIfNeeded = () =>
-  fs.existsSync(path.join(__dirname, '..', 'lib'))
-  ? true
-  : fs.mkdir(path.join(__dirname, '..', 'lib')) && true
+  fs.existsSync(path.join(__dirname, '..', 'lib')) || fs.mkdirSync(path.join(__dirname, '..', 'lib'))
 
 const generateJSON = instrument =>
-  fs.writeFile(path.join(__dirname, '..', 'lib', `${instrument}.json`), JSON.stringify(generate(db[instrument])))
+  fs.writeFileSync(path.join(__dirname, '..', 'lib', `${instrument}.json`), JSON.stringify(generate(db[instrument])))
+
+const prettyObjectToJSON = obj => JSON.stringify(obj, null, 4)
+
+const getInstrumentsDB = () =>
+  Object.assign(...Object.keys(db).map(instrument => ({ [instrument]: generate(db[instrument]) })))
 
 const processCommand = (json) =>
   json
   ? createDirIfNeeded() && Object.keys(db).map(instrument => generateJSON(instrument))
-  : console.log(JSON.stringify(
-    Object.assign(...Object.keys(db).map(instrument => ({ [instrument]: generate(db[instrument]) })))
-  ))
+  : console.log(prettyObjectToJSON(getInstrumentsDB()))
 
 const json = process.argv.length > 2 && process.argv[2] === 'json'
 
