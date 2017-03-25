@@ -3,10 +3,10 @@ export default {
   suffix: '7aug',
   positions: [{
     frets: 'x21203',
-    fingers: '403120'
+    fingers: '021304'
   },
   {
     frets: 'xx7887',
-    fingers: '243100'
+    fingers: '001342'
   }]
 }

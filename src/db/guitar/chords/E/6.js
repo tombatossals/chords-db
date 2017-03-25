@@ -3,25 +3,25 @@ export default {
   suffix: '6',
   positions: [{
     frets: '022120',
-    fingers: '041320'
+    fingers: '023140'
   },
   {
     frets: 'xx2424',
-    fingers: '413100',
+    fingers: '001314',
     barres: 2
   },
   {
     frets: 'x7665x',
-    fingers: '013240'
+    fingers: '042310'
   },
   {
     frets: 'x79999',
-    fingers: '333310',
+    fingers: '013333',
     barres: 9
   },
   {
     frets: 'xxb99c',
-    fingers: '411300',
+    fingers: '003114',
     barres: 9
   }]
 }

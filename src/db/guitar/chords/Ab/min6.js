@@ -3,11 +3,11 @@ export default {
   suffix: 'min6',
   positions: [{
     frets: '5x455x',
-    fingers: '043102'
+    fingers: '201340'
   },
   {
     frets: 'xx6867',
-    fingers: '213100',
+    fingers: '001312',
     barres: 6
   }]
 }

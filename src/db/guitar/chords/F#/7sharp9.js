@@ -3,6 +3,6 @@ export default {
   suffix: '7#9',
   positions: [{
     frets: 'x989ax',
-    fingers: '043120'
+    fingers: '021340'
   }]
 }

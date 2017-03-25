@@ -1,3 +1,9 @@
+## 0.3.0 (March 25, 2017)
+
+### Database
+
+* Reversed finger notation for better understanding
+
 ## 0.2.2 (Febraury 28, 2017)
 
 ### Database

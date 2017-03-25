@@ -3,26 +3,26 @@ export default {
   suffix: 'major',
   positions: [{
     frets: 'xx3121',
-    fingers: '121300',
+    fingers: '003121',
     barres: 1
   },
   {
     frets: 'x4666x',
-    fingers: '033310',
+    fingers: '013330',
     barres: 6
   },
   {
     frets: 'x8666x',
-    fingers: '011130',
+    fingers: '031110',
     barres: 6
   },
   {
     frets: '9bba99',
-    fingers: '112431',
+    fingers: '134211',
     barres: 9
   },
   {
     frets: 'xxbded',
-    fingers: '342100'
+    fingers: '001243'
   }]
 }

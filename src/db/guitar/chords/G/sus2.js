@@ -3,11 +3,11 @@ export default {
   suffix: 'sus2',
   positions: [{
     frets: '3x0233',
-    fingers: '431002'
+    fingers: '200134'
   },
   {
     frets: 'xaccaa',
-    fingers: '114310',
+    fingers: '013411',
     barres: 10
   }]
 }

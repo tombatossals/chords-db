@@ -3,24 +3,24 @@ export default {
   suffix: 'minor',
   positions: [{
     frets: 'x13321',
-    fingers: '124310',
+    fingers: '013421',
     barres: 1
   },
   {
     frets: 'x4336x',
-    fingers: '041120',
+    fingers: '021140',
     barres: 3
   },
   {
     frets: '688666',
-    fingers: '111431'
+    fingers: '134111'
   },
   {
     frets: 'xx8ab9',
-    fingers: '243100'
+    fingers: '001342'
   },
   {
     frets: 'xxbabd',
-    fingers: '431200'
+    fingers: '002134'
   }]
 }
