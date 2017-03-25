@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest src",
     "stdout": "babel-node src/generate",
-    "standard": "standard *.js db/",
+    "standard": "standard",
     "build": "babel-node src/generate json",
     "prepublish": "npm run build"
   },
@@ -29,12 +29,10 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
-    "babel-preset-latest": "^6.22.0",
     "jest": "^19.0.2",
-    "standard": "^8.6.0"
-  },
-  "dependencies": {
-    "babel-cli": "^6.23.0"
+    "standard": "^9.0.1",
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1"
   },
   "jest": {
     "verbose": false,
