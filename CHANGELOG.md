@@ -1,3 +1,9 @@
+## 0.3.1 (Apr 07, 2017)
+
+### Database
+
+* Solved a problem with the MIDI notes generation
+
 ## 0.3.0 (March 25, 2017)
 
 ### Database

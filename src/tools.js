@@ -1,7 +1,7 @@
 export const strChord2array = str =>
   str.split('').map(char => char.toLowerCase() === 'x' ? -1 : parseInt(char, 16))
 
-const processString = strings =>
+export const processString = strings =>
   Array.isArray(strings) ? strings : strChord2array(strings)
 
 const processbaseFret = frets =>
@@ -22,6 +22,7 @@ const processFingers = fingers =>
 const processPosition = position => {
   const frets = processString(position.frets)
   const baseFret = processbaseFret(frets)
+
   Object.assign(position, {
     baseFret: processbaseFret(frets),
     barres: processBarres(position.barres, baseFret),
@@ -45,11 +46,10 @@ const processChords = chords =>
 export const generate = instrument =>
   Object.assign(instrument, { chords: processChords(instrument.chords) })
 
-const MIDIstrings = [ 68, 63, 59, 54, 49, 44 ]
+const MIDIstrings = [ 40, 45, 50, 55, 59, 64 ]
 
 const string2midi = (fret, string) =>
-  MIDIstrings[string] + fret
+  fret >= 0 && MIDIstrings[string] + fret
 
-const chord2midi = frets =>
-  frets.filter(fret => fret >= 0).map((fret, string) =>
-    string2midi(fret, string))
+export const chord2midi = frets =>
+  frets.map((fret, string) => string2midi(fret, string)).filter(note => note > 0)

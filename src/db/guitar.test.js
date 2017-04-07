@@ -1,7 +1,7 @@
 /* global it, describe, expect */
 
 import guitar from './guitar'
-import { strChord2array } from '../tools'
+import { strChord2array, chord2midi, processString } from '../tools'
 
 describe('Guitar Chords', () => {
   describe('Strings', () =>
@@ -12,6 +12,16 @@ describe('Guitar Chords', () => {
     guitar.types.map(type =>
       it(`Type suffix ${type.suffix} should have a description`, () => expect(type.name).toBeDefined())
     )
+  )
+
+  const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major')
+
+  describe(`Test Cmajor midi notes`, () =>
+    it(`Should match D4`, () => {
+      const midiNotes = chord2midi(processString(Cmajor.positions[0].frets))
+      const CmajorNotes = [ 48, 52, 55, 60, 64 ]
+      expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes))
+    })
   )
 
   Object.keys(guitar.chords).map(key =>
