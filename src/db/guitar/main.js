@@ -4,6 +4,6 @@ export default {
   name: 'Guitar',
   keys: [ 'C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B' ],
   tunnings: {
-    standard: [ 'E', 'B', 'G', 'D', 'A', 'E' ]
+    standard: [ 'E2', 'A2', 'D3', 'G3', 'B3', 'E4' ]
   }
 }

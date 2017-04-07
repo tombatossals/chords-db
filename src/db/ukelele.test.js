@@ -1,7 +1,7 @@
 /* global it, describe, expect */
 
 import ukelele from './ukelele'
-import { strChord2array } from '../tools'
+import { strChord2array, chord2midi, processString } from '../tools'
 
 describe('Ukelele Chords', () => {
   describe('Strings', () =>
@@ -12,6 +12,15 @@ describe('Ukelele Chords', () => {
     ukelele.types.map(type =>
       it(`Type suffix ${type.suffix} should have a description`, () => expect(type.name).toBeDefined())
     )
+  )
+
+  describe(`Test Cmajor midi notes`, () =>
+    it(`Should match [ 67, 60, 64, 72 ]`, () => {
+      const Cmajor = ukelele.chords.C.find(chord => chord.suffix === 'major')
+      const midiNotes = chord2midi(processString(Cmajor.positions[0].frets), ukelele.main.tunnings['standard'])
+      const CmajorNotes = [ 67, 60, 64, 72 ]
+      expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes))
+    })
   )
 
   Object.keys(ukelele.chords).map(key =>

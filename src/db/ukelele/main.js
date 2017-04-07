@@ -5,6 +5,6 @@ export default {
   type: 'soprano',
   keys: [ 'C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B' ],
   tunnings: {
-    standard: [ 'A', 'E', 'C', 'G' ]
+    standard: [ 'G4', 'C4', 'E4', 'A4' ]
   }
 }

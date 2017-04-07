@@ -14,11 +14,10 @@ describe('Guitar Chords', () => {
     )
   )
 
-  const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major')
-
   describe(`Test Cmajor midi notes`, () =>
-    it(`Should match D4`, () => {
-      const midiNotes = chord2midi(processString(Cmajor.positions[0].frets))
+    it(`Should match [ 48, 52, 55, 60, 64 ]`, () => {
+      const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major')
+      const midiNotes = chord2midi(processString(Cmajor.positions[0].frets), guitar.main.tunnings['standard'])
       const CmajorNotes = [ 48, 52, 55, 60, 64 ]
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes))
     })

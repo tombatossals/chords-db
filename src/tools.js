@@ -19,7 +19,7 @@ const processFrets = (frets, baseFret) =>
 const processFingers = fingers =>
   fingers ? processString(fingers) : []
 
-const processPosition = position => {
+const processPosition = (position, tunning) => {
   const frets = processString(position.frets)
   const baseFret = processbaseFret(frets)
 
@@ -28,28 +28,33 @@ const processPosition = position => {
     barres: processBarres(position.barres, baseFret),
     fingers: processFingers(position.fingers),
     frets: processFrets(frets, baseFret),
-    midi: chord2midi(frets)
+    midi: chord2midi(frets, tunning)
   })
 }
 
-const processPositions = positions =>
-  positions.map(position => processPosition(position))
+const processPositions = (positions, tunning) =>
+  positions.map(position => processPosition(position, tunning))
 
-const processChord = (suffixes) =>
-  suffixes.map(suffix => Object.assign(suffix, processPositions(suffix.positions)))
+const processChord = (suffixes, tunning) =>
+  suffixes.map(suffix => Object.assign(suffix, processPositions(suffix.positions, tunning)))
 
-const processChords = chords =>
+const processChords = (chords, tunning) =>
   Object.assign(...Object.keys(chords).map(chord =>
-    Object.assign({}, { [chord]: processChord(chords[chord]) }))
+    Object.assign({}, { [chord]: processChord(chords[chord], tunning) }))
   )
 
-export const generate = instrument =>
-  Object.assign(instrument, { chords: processChords(instrument.chords) })
+export const generate = (instrument, tunning = 'standard') =>
+  Object.assign(instrument, { chords: processChords(instrument.chords, instrument.main.tunnings[tunning]) })
 
-const MIDIstrings = [ 40, 45, 50, 55, 59, 64 ]
+const midiNumbers = [ 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B' ]
 
-const string2midi = (fret, string) =>
-  fret >= 0 && MIDIstrings[string] + fret
+const midiNote = note =>
+  (parseInt(note[1], 10) + 1) * 12 + midiNumbers.indexOf(note[0])
 
-export const chord2midi = frets =>
-  frets.map((fret, string) => string2midi(fret, string)).filter(note => note > 0)
+const string2midi = (fret, string, tunning) =>
+  fret >= 0
+    ? midiNote(tunning[string]) + fret
+    : -1
+
+export const chord2midi = (frets, tunning) =>
+  frets.map((fret, string) => string2midi(fret, string, tunning)).filter(note => note > 0)

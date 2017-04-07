@@ -2,7 +2,7 @@
 
 ### Database
 
-* Solved a problem with the MIDI notes generation
+* Auto-generating MIDI notes of the intrument chords
 
 ## 0.3.0 (March 25, 2017)
 
