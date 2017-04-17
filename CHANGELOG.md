@@ -1,3 +1,9 @@
+## 0.3.2 (Apr 17, 2017)
+
+### Database
+
+* Unified instrument name
+
 ## 0.3.1 (Apr 07, 2017)
 
 ### Database
