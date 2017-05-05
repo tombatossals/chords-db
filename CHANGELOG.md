@@ -1,3 +1,9 @@
+## 0.3.3 (May 05, 2017)
+
+### Database
+
+* New Ukelele C chords
+
 ## 0.3.2 (Apr 17, 2017)
 
 ### Database
