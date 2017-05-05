@@ -1,22 +1,22 @@
 export default {
   key: 'Db',
-  suffix: 'minor',
+  suffix: 'mmaj7',
   positions: [{
-    frets: '1444',
-    fingers: '1234'
+    frets: '1103',
+    fingers: '1204'
   },
   {
-    frets: '6444',
+    frets: '43544433',
     fingers: '2111',
     barres: 4
   },
   {
-    frets: '6447',
-    fingers: '3114',
+    frets: '6443',
+    fingers: '4221',
     barres: 4
   },
   {
-    frets: '6897',
+    frets: '6887',
     fingers: '1342'
   }]
 }

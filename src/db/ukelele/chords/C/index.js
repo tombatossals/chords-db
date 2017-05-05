@@ -7,22 +7,22 @@ import sus4 from './sus4'
 import c7sus4 from './7sus4'
 import alt from './alt'
 import aug from './aug'
-import c6 from './6'
-import c69 from './69'
-import c7 from './7'
-import c7b5 from './7b5'
+import _6 from './6'
+import _69 from './69'
+import _7 from './7'
+import _7b5 from './7b5'
 import aug7 from './aug7'
-import c9 from './9'
-import c9b5 from './9b5'
+import _9 from './9'
+import _9b5 from './9b5'
 import aug9 from './aug9'
-import c7b9 from './7b9'
-import c7b9sharp5 from './7b9#5'
-import c7sharp9 from './7#9'
-import c11 from './11'
-import c9sharp11 from './9#11'
-import c13 from './13'
-import c13b9 from './13b9'
-import c13b5b9 from './13b5b9'
+import _7b9 from './7b9'
+import _7b9sharp5 from './7b9#5'
+import _7sharp9 from './7#9'
+import _11 from './11'
+import _9sharp11 from './9#11'
+import _13 from './13'
+import _13b9 from './13b9'
+import _13b5b9 from './13b5b9'
 import b13b9 from './b13b9'
 import maj7 from './maj7'
 import maj7b5 from './maj7b5'
@@ -54,22 +54,22 @@ export default [
   c7sus4,
   alt,
   aug,
-  c6,
-  c69,
-  c7,
-  c7b5,
+  _6,
+  _69,
+  _7,
+  _7b5,
   aug7,
-  c9,
-  c9b5,
+  _9,
+  _9b5,
   aug9,
-  c7b9,
-  c7b9sharp5,
-  c7sharp9,
-  c11,
-  c9sharp11,
-  c13,
-  c13b9,
-  c13b5b9,
+  _7b9,
+  _7b9sharp5,
+  _7sharp9,
+  _11,
+  _9sharp11,
+  _13,
+  _13b9,
+  _13b5b9,
   b13b9,
   maj7,
   maj7b5,

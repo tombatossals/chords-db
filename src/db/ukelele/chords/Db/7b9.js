@@ -1,20 +1,20 @@
 export default {
   key: 'Db',
-  suffix: 'dim7',
+  suffix: '7b9',
   positions: [{
-    frets: '0101',
-    fingers: '0102'
-  },
-  {
-    frets: '3434',
+    frets: '1212',
     fingers: '1324'
   },
   {
-    frets: '6767',
+    frets: '4545',
     fingers: '1324'
   },
   {
-    frets: 'bcbc',
+    frets: '7878',
+    fingers: '1324'
+  },
+  {
+    frets: 'abab',
     fingers: '1324'
   }]
 }
