@@ -1,23 +1,23 @@
 export default {
-  key: 'Db',
+  key: 'D',
   suffix: 'maj9',
   positions: [{
-    frets: '1313',
+    frets: '2424',
     fingers: '1324'
   },
   {
-    frets: '5546',
+    frets: '6657',
     fingers: '2213',
-    barres: 5
+    barres: 6
   },
   {
-    frets: '8888',
+    frets: '9999',
     fingers: '1111',
-    barres: 8
+    barres: 9
   },
   {
-    frets: 'acbb',
+    frets: 'bdcc',
     fingers: '1322',
-    barres: 11
+    barres: 12
   }]
 }
