@@ -1,6 +1,6 @@
 export default {
-  key: 'Db',
-  suffix: 'dim7',
+  key: 'Eb',
+  suffix: '7b9',
   positions: [{
     frets: '0101',
     fingers: '0102'
