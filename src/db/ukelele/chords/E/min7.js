@@ -1,7 +1,0 @@
-export default {
-  key: 'E',
-  suffix: 'min7',
-  positions: [{
-    frets: '0202'
-  }]
-}
