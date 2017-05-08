@@ -2,22 +2,22 @@ export default {
   key: 'E',
   suffix: 'maj9',
   positions: [{
-    frets: '2424',
+    frets: '1322',
+    fingers: '1322',
+    barres: 2
+  },
+  {
+    frets: '4646',
     fingers: '1324'
   },
   {
-    frets: '6657',
+    frets: '8879',
     fingers: '2213',
-    barres: 6
+    barres: 8
   },
   {
-    frets: '9999',
+    frets: 'bbbb',
     fingers: '1111',
-    barres: 9
-  },
-  {
-    frets: 'bdcc',
-    fingers: '1322',
-    barres: 12
+    barres: 11
   }]
 }

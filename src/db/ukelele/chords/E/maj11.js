@@ -2,15 +2,11 @@ export default {
   key: 'E',
   suffix: 'maj11',
   positions: [{
-    frets: '0424',
-    fingers: '0213'
+    frets: '1320',
+    fingers: '1320'
   },
   {
-    frets: '9799',
+    frets: 'b9bb',
     fingers: '2134'
-  },
-  {
-    frets: 'bdca',
-    fingers: '2431'
   }]
 }

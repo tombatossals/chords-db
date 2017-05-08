@@ -2,17 +2,17 @@ export default {
   key: 'E',
   suffix: 'madd9',
   positions: [{
-    frets: '7557',
+    frets: '9779',
     fingers: '3114',
-    barres: 5
+    barres: 7
   },
   {
-    frets: 'a9a7',
+    frets: 'cbc9',
     fingers: '3241'
   },
   {
-    frets: '99a8',
+    frets: 'bbca',
     fingers: '2231',
-    barres: 9
+    barres: 11
   }]
 }

@@ -2,21 +2,21 @@ export default {
   key: 'E',
   suffix: 'b13b9',
   positions: [{
-    frets: '3323',
+    frets: '1213',
+    fingers: '1213',
+    barres: 1
+  },
+  {
+    frets: '5545',
     fingers: '2314'
   },
   {
-    frets: '5666',
+    frets: '7888',
     fingers: '1234'
   },
   {
-    frets: '8a89',
+    frets: 'acab',
     fingers: '1312',
-    barres: 8
-  },
-  {
-    frets: 'bcbd',
-    fingers: '1213',
-    barres: 11
+    barres: 10
   }]
 }
