@@ -2,6 +2,20 @@ export default {
   key: 'Gb',
   suffix: '6',
   positions: [{
-    frets: '3324'
+    frets: '3314',
+    fingers: '2314'
+  },
+  {
+    frets: '6666',
+    fingers: '1111',
+    barres: 6
+  },
+  {
+    frets: '8a99',
+    fingers: '1423'
+  },
+  {
+    frets: 'bdbd',
+    fingers: '1324'
   }]
 }
