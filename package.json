@@ -31,7 +31,7 @@
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-preset-env": "^1.5.1",
-    "jest": "^20.0.3",
+    "jest": "^20.0.4",
     "standard": "^10.0.0"
   },
   "jest": {
