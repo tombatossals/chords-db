@@ -1,3 +1,9 @@
+## 0.3.5 (May 30, 2017)
+
+### Database
+
+* Fixed build
+
 ## 0.3.4 (May 30, 2017)
 
 ### Database
