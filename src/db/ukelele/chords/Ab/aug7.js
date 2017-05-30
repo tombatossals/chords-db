@@ -1,0 +1,22 @@
+export default {
+  key: 'Ab',
+  suffix: 'aug7',
+  positions: [{
+    frets: '1423',
+    fingers: '1423'
+  },
+  {
+    frets: '5647',
+    fingers: '2314'
+  },
+  {
+    frets: '9889',
+    fingers: '2113',
+    barres: 8
+  },
+  {
+    frets: 'bbcc',
+    fingers: '1221',
+    barrs: [11, 12]
+  }]
+}
