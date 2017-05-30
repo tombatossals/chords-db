@@ -1,3 +1,9 @@
+## 0.3.4 (May 30, 2017)
+
+### Database
+
+* Lots of new Ukelele chords
+
 ## 0.3.3 (May 05, 2017)
 
 ### Database
