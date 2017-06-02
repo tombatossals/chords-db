@@ -2,7 +2,7 @@ export default {
   key: 'Gb',
   suffix: '13',
   positions: [{
-    frets: '1302',
+    frets: '1301',
     fingers: '1302'
   },
   {

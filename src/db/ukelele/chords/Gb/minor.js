@@ -6,7 +6,7 @@ export default {
     fingers: '2130'
   },
   {
-    frets: '2134',
+    frets: '2124',
     fingers: '2134'
   },
   {

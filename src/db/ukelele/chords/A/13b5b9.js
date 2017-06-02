@@ -15,7 +15,7 @@ export default {
     fingers: '0231'
   },
   {
-    frets: 'abab',
+    frets: 'baba',
     fingers: '3142'
   }]
 }

@@ -2,9 +2,8 @@ export default {
   key: 'Ab',
   suffix: 'mmaj11',
   positions: [{
-    frets: '3131',
-    fingers: '3141',
-    barres: 1
+    frets: '3132',
+    fingers: '3142'
   },
   {
     frets: '4131',
