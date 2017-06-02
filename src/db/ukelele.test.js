@@ -1,7 +1,7 @@
 /* global it, describe, expect */
 
 import ukelele from './ukelele'
-import { strChord2array, chord2midi, processString, needsBarre, needsBarre2 } from '../tools'
+import { strChord2array, chord2midi, processString, needsBarre, getNoteFromMidiNumber } from '../tools'
 
 describe('Ukelele Chords', () => {
   describe('Strings', () =>
@@ -41,7 +41,7 @@ describe('Ukelele Chords', () => {
             it(`The chord ${key}${chord.suffix} should have a list of positions`, () => expect(chord.positions).toBeInstanceOf(Array))
           })
 
-          describe(`Positions`, () =>
+          describe(`Positions`, () => {
             chord.positions.map((position, index) => {
               const frets = Array.isArray(position.frets) ? position.frets : strChord2array(position.frets)
               const effectiveFrets = frets.filter(f => f > 0)
@@ -80,7 +80,17 @@ describe('Ukelele Chords', () => {
                 }
               })
             })
-          )
+
+            describe.only('MIDI checks', () => {
+              var initialNotes = chord2midi(processString(chord.positions[0].frets), ukelele.main.tunnings['standard']).map(n => getNoteFromMidiNumber(n))
+              chord.positions.map((position, index) => {
+                it(`The MIDI notes should be homogeneous at position ${index + 1}`, () => {
+                  const notes = chord2midi(processString(position.frets), ukelele.main.tunnings['standard']).map(n => getNoteFromMidiNumber(n))
+                  expect(notes.sort()).toEqual(initialNotes.sort())
+                })
+              })
+            })
+          })
         })
       )
     })

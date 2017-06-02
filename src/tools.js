@@ -63,3 +63,6 @@ const string2midi = (fret, string, tunning) =>
 
 export const chord2midi = (frets, tunning) =>
   frets.map((fret, string) => string2midi(fret, string, tunning)).filter(note => note > 0)
+
+export const getNoteFromMidiNumber = number =>
+  midiNumbers[number % 12]
