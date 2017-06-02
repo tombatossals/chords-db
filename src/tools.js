@@ -32,6 +32,11 @@ const processPosition = (position, tunning) => {
   })
 }
 
+export const needsBarre = str =>
+  str.split('').map(
+    chr => str.match(new RegExp(chr, 'gi')) && parseInt(chr, 10) > 0 && str.match(new RegExp(chr, 'gi')).length > 1
+  ).reduce((last, actual) => last ? true : actual, false)
+
 const processPositions = (positions, tunning) =>
   positions.map(position => processPosition(position, tunning))
 

@@ -11,7 +11,8 @@ export default {
   },
   {
     frets: '888a',
-    fingers: '1113'
+    fingers: '1113',
+    barres: 8
   },
   {
     frets: 'dcba',

@@ -2,20 +2,20 @@ export default {
   key: 'Gb',
   suffix: 'maj7b5',
   positions: [{
-    frets: '3525',
-    fingers: '2314'
+    frets: '3523',
+    fingers: '2413'
   },
   {
-    frets: '7668',
-    fingers: '2113',
-    barres: 6
+    frets: '5668',
+    fingers: '1234'
   },
   {
-    frets: 'baa8',
-    fingers: '4231'
+    frets: 'ba88',
+    fingers: '4311',
+    barres: 8
   },
   {
-    frets: 'aaa9',
-    fingers: '2341'
+    frets: 'aa89',
+    fingers: '3412'
   }]
 }

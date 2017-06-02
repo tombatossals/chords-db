@@ -13,7 +13,8 @@ export default {
   },
   {
     frets: '7988',
-    fingers: '1322'
+    fingers: '1322',
+    barres: 8
   },
   {
     frets: 'acac',

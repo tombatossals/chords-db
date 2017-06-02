@@ -1,7 +1,7 @@
 /* global it, describe, expect */
 
 import ukelele from './ukelele'
-import { strChord2array, chord2midi, processString } from '../tools'
+import { strChord2array, chord2midi, processString, needsBarre, needsBarre2 } from '../tools'
 
 describe('Ukelele Chords', () => {
   describe('Strings', () =>
@@ -60,15 +60,25 @@ describe('Ukelele Chords', () => {
                 })
               }
 
-              if (position.barres) {
-                describe(`Barres`, () => {
+              describe(`Barres`, () => {
+                if (position.fingers && !position.barres) {
+                  it.only(`The ${index + 1} position needs a barres property`, () =>
+                    expect(needsBarre(position.fingers)).toEqual(false))
+                }
+
+                if (position.fingers && position.barres) {
+                  it(`The ${index + 1} position needs a barres property`, () =>
+                    expect(needsBarre(position.fingers)).toEqual(true))
+                }
+
+                if (position.barres) {
                   const barres = Array.isArray(position.barres) ? position.barres : [ position.barres ]
                   barres.map(barre => {
                     it(`The barre ${barre} should have frets`, () => expect(frets.indexOf(barre)).not.toEqual(-1))
                     it(`The barre ${barre} should have two strings at least`, () => expect(frets.indexOf(barre)).not.toEqual(frets.lastIndexOf(barre)))
                   })
-                })
-              }
+                }
+              })
             })
           )
         })
