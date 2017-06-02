@@ -19,6 +19,6 @@ export default {
   {
     frets: 'acdd',
     fingers: '1233',
-    barres: 10
+    barres: 13
   }]
 }

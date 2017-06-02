@@ -62,7 +62,7 @@ describe('Ukelele Chords', () => {
 
               describe(`Barres`, () => {
                 if (position.fingers && !position.barres) {
-                  it.only(`The ${index + 1} position needs a barres property`, () =>
+                  it(`The ${index + 1} position needs a barres property`, () =>
                     expect(needsBarre(position.fingers)).toEqual(false))
                 }
 
@@ -74,8 +74,8 @@ describe('Ukelele Chords', () => {
                 if (position.barres) {
                   const barres = Array.isArray(position.barres) ? position.barres : [ position.barres ]
                   barres.map(barre => {
-                    it(`The barre ${barre} should have frets`, () => expect(frets.indexOf(barre)).not.toEqual(-1))
-                    it(`The barre ${barre} should have two strings at least`, () => expect(frets.indexOf(barre)).not.toEqual(frets.lastIndexOf(barre)))
+                    it(`The barre at position ${index + 1} should have frets`, () => expect(frets.indexOf(barre)).not.toEqual(-1))
+                    it(`The barre at position ${index + 1} should have two strings at least`, () => expect(frets.indexOf(barre)).not.toEqual(frets.lastIndexOf(barre)))
                   })
                 }
               })
