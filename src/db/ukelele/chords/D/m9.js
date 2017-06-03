@@ -3,7 +3,8 @@ export default {
   suffix: 'm9',
   positions: [{
     frets: '2413',
-    fingers: '2413'
+    fingers: '2413',
+    capo: true
   },
   {
     frets: '5557',
@@ -17,6 +18,7 @@ export default {
   {
     frets: '9988',
     fingers: '2211',
-    barres: [8, 9]
+    barres: [8, 9],
+    capo: true
   }]
 }
