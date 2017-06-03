@@ -1,3 +1,13 @@
+## 0.3.6 (Jun 03, 2017)
+
+### Database
+
+* All ukelele chords added
+
+### Tests
+
+* Lot of new testing
+
 ## 0.3.5 (May 30, 2017)
 
 ### Database
