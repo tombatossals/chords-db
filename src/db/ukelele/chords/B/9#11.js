@@ -1,24 +1,23 @@
 export default {
-  key: 'C',
-  suffix: '9b5',
+  key: 'B',
+  suffix: '9#11',
   positions: [{
-    frets: '3425',
+    frets: '2314',
     fingers: '2314'
   },
   {
-    frets: '7667',
+    frets: '6556',
     fingers: '2113',
-    barres: 6,
-    capo: true
+    barres: 5
   },
   {
-    frets: '9aa9',
+    frets: '8998',
     fingers: '1221',
-    barres: [9, 10],
+    barres: [8, 9],
     capo: true
   },
   {
-    frets: 'becd',
+    frets: 'adbc',
     fingers: '1423'
   }]
 }

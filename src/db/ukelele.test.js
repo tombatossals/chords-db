@@ -1,7 +1,7 @@
 /* global it, describe, expect */
 
 import ukelele from './ukelele'
-import { strChord2array, chord2midi, processString, needsBarre, getNoteFromMidiNumber } from '../tools'
+import { strChord2array, chord2midi, processString, numberOfBarres, unique, getNoteFromMidiNumber } from '../tools'
 
 describe('Ukelele Chords', () => {
   describe('Strings', () =>
@@ -63,16 +63,17 @@ describe('Ukelele Chords', () => {
               describe(`Barres`, () => {
                 if (position.fingers && !position.barres) {
                   it(`The ${index + 1} position needs a barres property`, () =>
-                    expect(needsBarre(position.fingers)).toEqual(false))
-                }
-
-                if (position.fingers && position.barres) {
-                  it(`The ${index + 1} position needs a barres property`, () =>
-                    expect(needsBarre(position.fingers)).toEqual(true))
+                    expect(numberOfBarres(position.fingers)).toEqual(0))
                 }
 
                 if (position.barres) {
                   const barres = Array.isArray(position.barres) ? position.barres : [ position.barres ]
+
+                  if (position.fingers) {
+                    it(`The ${index + 1} position needs a barres property`, () =>
+                      expect(numberOfBarres(position.fingers)).toEqual(barres.length))
+                  }
+
                   barres.map(barre => {
                     it(`The barre at position ${index + 1} should have frets`, () => expect(frets.indexOf(barre)).not.toEqual(-1))
                     it(`The barre at position ${index + 1} should have two strings at least`, () => expect(frets.indexOf(barre)).not.toEqual(frets.lastIndexOf(barre)))
@@ -82,7 +83,6 @@ describe('Ukelele Chords', () => {
             })
 
             describe('MIDI checks', () => {
-              const unique = arr => arr.filter((elem, pos, a) => a.indexOf(elem) === pos)
               var initialNotes = chord2midi(processString(chord.positions[0].frets), ukelele.main.tunnings['standard']).map(n => getNoteFromMidiNumber(n))
               chord.positions.map((position, index) => {
                 it(`The MIDI notes should be homogeneous at position ${index + 1}`, () => {

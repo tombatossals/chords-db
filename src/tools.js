@@ -32,10 +32,12 @@ const processPosition = (position, tunning) => {
   })
 }
 
-export const needsBarre = str =>
-  str.split('').map(
-    chr => str.match(new RegExp(chr, 'gi')) && parseInt(chr, 10) > 0 && str.match(new RegExp(chr, 'gi')).length > 1
-  ).reduce((last, actual) => last ? true : actual, false)
+export const unique = arr => arr.filter((elem, pos, a) => a.indexOf(elem) === pos)
+
+export const numberOfBarres = str =>
+  unique(str.split('')).map(
+    chr => str.match(new RegExp(chr, 'gi')) && parseInt(chr, 10) > 0 && str.match(new RegExp(chr, 'gi')).length > 1 ? 1 : 0
+  ).reduce((last, actual) => actual + last, 0)
 
 const processPositions = (positions, tunning) =>
   positions.map(position => processPosition(position, tunning))
