@@ -4,7 +4,8 @@ export default {
   positions: [{
     frets: '1211',
     fingers: '1211',
-    barres: 1
+    barres: 1,
+    capo: true
   },
   {
     frets: '3545',
@@ -17,6 +18,7 @@ export default {
   {
     frets: 'aaab',
     fingers: '1112',
-    barres: 10
+    barres: 10,
+    capo: true
   }]
 }
