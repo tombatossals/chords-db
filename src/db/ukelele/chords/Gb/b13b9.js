@@ -2,21 +2,21 @@ export default {
   key: 'Gb',
   suffix: 'b13b9',
   positions: [{
-    frets: '1213',
-    fingers: '1213',
-    barres: 1
+    frets: '0201',
+    fingers: '0201'
   },
   {
-    frets: '5545',
+    frets: '3435',
+    fingers: '1213',
+    barres: 3,
+    capo: true
+  },
+  {
+    frets: '7767',
     fingers: '2314'
   },
   {
-    frets: '7888',
+    frets: '9aaa',
     fingers: '1234'
-  },
-  {
-    frets: 'acab',
-    fingers: '1312',
-    barres: 10
   }]
 }

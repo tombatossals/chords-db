@@ -3,8 +3,7 @@ export default {
   suffix: 'mmaj11',
   positions: [{
     frets: '5354',
-    fingers: '3142',
-    capo: true
+    fingers: '3142'
   },
   {
     frets: '6353',

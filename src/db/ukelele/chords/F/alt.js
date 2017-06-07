@@ -2,21 +2,17 @@ export default {
   key: 'F',
   suffix: 'alt',
   positions: [{
-    frets: '2110',
-    fingers: '3120'
+    frets: '2552',
+    fingers: '1341',
+    barres: 2,
+    capo: true
   },
   {
-    frets: '2114',
-    fingers: '2114',
-    barres: 1
+    frets: 'a978',
+    fingers: '4312'
   },
   {
-    frets: '2554',
-    fingers: '1342'
-  },
-  {
-    frets: '6558',
-    fingers: '2114',
-    barres: 5
+    frets: 'abdc',
+    fingers: '1243'
   }]
 }

@@ -8,7 +8,8 @@ export default {
   {
     frets: '4674',
     fingers: '1231',
-    barres: 4
+    barres: 4,
+    capo: true
   },
   {
     frets: '6674',
@@ -17,6 +18,7 @@ export default {
   {
     frets: '6679',
     fingers: '1124',
-    barres: 6
+    barres: 6,
+    capo: true
   }]
 }

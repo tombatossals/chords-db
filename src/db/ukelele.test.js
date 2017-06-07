@@ -66,6 +66,12 @@ describe('Ukelele Chords', () => {
                     expect(numberOfBarres(position.fingers)).toEqual(0))
                 }
 
+                if (!position.barres) {
+                  it(`The ${index + 1} position doesn't need a capo property`, () =>
+                    expect(position.capo).not.toEqual(true)
+                  )
+                }
+
                 if (position.barres) {
                   const barres = Array.isArray(position.barres) ? position.barres : [ position.barres ]
 

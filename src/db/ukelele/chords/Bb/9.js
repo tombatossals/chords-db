@@ -9,13 +9,11 @@ export default {
   },
   {
     frets: '5545',
-    fingers: '2314',
-    capo: true
+    fingers: '2314'
   },
   {
     frets: '7888',
-    fingers: '1234',
-    capo: true
+    fingers: '1234'
   },
   {
     frets: 'acab',

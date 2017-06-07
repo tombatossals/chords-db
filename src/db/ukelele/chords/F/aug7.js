@@ -8,12 +8,14 @@ export default {
   {
     frets: '6556',
     fingers: '2113',
-    barres: 5
+    barres: 5,
+    capo: true
   },
   {
     frets: '8998',
     fingers: '1221',
-    barres: [8, 9]
+    barres: [8, 9],
+    capo: true
   },
   {
     frets: 'adbc',
