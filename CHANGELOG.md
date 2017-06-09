@@ -1,3 +1,9 @@
+## 0.3.7 (Jun 07, 2017)
+
+### Database
+
+* All ukelele chords finished
+
 ## 0.3.6 (Jun 03, 2017)
 
 ### Database
