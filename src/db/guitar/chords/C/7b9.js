@@ -2,8 +2,21 @@ export default {
   key: 'C',
   suffix: '7b9',
   positions: [{
-    frets: 'x3232x',
-    fingers: '021310',
-    barres: 2
+    frets: 'x32323',
+    fingers: '021314'
+  },
+  {
+    frets: '8786xx',
+    fingers: '324100'
+  },
+  {
+    frets: '8x8989',
+    fingers: '101213',
+    barres: 8,
+    capo: true
+  },
+  {
+    frets: 'xxa9b9',
+    fingers: '003142'
   }]
 }
