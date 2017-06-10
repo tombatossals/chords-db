@@ -13,15 +13,4 @@ import Bb from './Bb'
 
 export default {
   C,
-  Csharp,
-  D,
-  Eb,
-  E,
-  F,
-  Fsharp,
-  G,
-  Ab,
-  A,
-  Bb,
-  B
 }

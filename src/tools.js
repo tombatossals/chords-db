@@ -32,7 +32,7 @@ const processPosition = (position, tunning) => {
   })
 }
 
-export const unique = arr => arr.filter((elem, pos, a) => a.indexOf(elem) === pos)
+export const unique = arr => Array.from(new Set(arr))
 
 export const numberOfBarres = str =>
   unique(str.split('')).map(
