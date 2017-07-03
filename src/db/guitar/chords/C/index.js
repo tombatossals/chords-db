@@ -16,14 +16,10 @@ import _9 from './9'
 import _9b5 from './9b5'
 import aug9 from './aug9'
 import _7b9 from './7b9'
-import _7b9sharp5 from './7b9#5'
 import _7sharp9 from './7#9'
 import _11 from './11'
 import _9sharp11 from './9#11'
 import _13 from './13'
-import _13b9 from './13b9'
-import _13b5b9 from './13b5b9'
-import b13b9 from './b13b9'
 import maj7 from './maj7'
 import maj7b5 from './maj7b5'
 import maj7sharp5 from './maj7#5'
@@ -35,7 +31,6 @@ import m7 from './m7'
 import m7b5 from './m7b5'
 import m9 from './m9'
 import m69 from './m69'
-import m9b5 from './m9b5'
 import m11 from './m11'
 import mmaj7 from './mmaj7'
 import mmaj7b5 from './mmaj7b5'
@@ -63,14 +58,10 @@ export default [
   _9b5,
   aug9,
   _7b9,
-  _7b9sharp5,
   _7sharp9,
   _11,
   _9sharp11,
   _13,
-  _13b9,
-  _13b5b9,
-  b13b9,
   maj7,
   maj7b5,
   maj7sharp5,
@@ -82,7 +73,6 @@ export default [
   m7b5,
   m9,
   m69,
-  m9b5,
   m11,
   mmaj7,
   mmaj7b5,
