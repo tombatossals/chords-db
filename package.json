@@ -7,7 +7,7 @@
     "test": "jest src",
     "stdout": "babel-node src/generate",
     "standard": "standard",
-    "build": "yarn test && babel-node src/generate json",
+    "build": "babel-node src/generate json",
     "prepublish": "npm run build"
   },
   "repository": {
