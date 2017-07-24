@@ -10,18 +10,15 @@ export default {
     fingers: '032410'
   },
   {
-    frets: 'x57575',
-    fingers: '013141',
-    barres: 5
-  },
-  {
-    frets: 'xx7778',
-    fingers: '001112',
-    barres: 7
+    frets: '557575',
+    fingers: '113141',
+    barres: 5,
+    capo: true
   },
   {
     frets: 'acabaa',
     fingers: '131211',
-    barres: 10
+    barres: 10,
+    capo: true
   }]
 }
