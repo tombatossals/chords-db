@@ -2,22 +2,21 @@ export default {
   key: 'D',
   suffix: 'madd9',
   positions: [{
-    frets: 'x31033',
-    fingers: '021034'
+    frets: 'x53230',
+    fingers: '042130'
   },
   {
-    frets: 'x30543',
-    fingers: '010432'
+    frets: 'x5325x',
+    fingers: '032140'
   },
   {
-    frets: '860788',
-    fingers: '310244',
-    barres: 8
+    frets: 'x57760',
+    fingers: '013420'
   },
   {
-    frets: 'xxa88a',
+    frets: 'xxcaac',
     fingers: '003114',
-    barres: 8,
+    barres: 10,
     capo: true
   }]
 }

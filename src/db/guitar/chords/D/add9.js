@@ -2,19 +2,20 @@ export default {
   key: 'D',
   suffix: 'add9',
   positions: [{
-    frets: 'x32030',
-    fingers: '021030'
+    frets: 'x54252',
+    fingers: '032141',
+    barres: 2
   },
   {
-    frets: 'x30030',
-    fingers: '010030'
+    frets: 'x57770',
+    fingers: '012340'
   },
   {
-    frets: '870080',
-    fingers: '210030'
+    frets: 'xx097a',
+    fingers: '000314'
   },
   {
-    frets: 'xxa98a',
+    frets: 'xxcbac',
     fingers: '003214'
   }]
 }

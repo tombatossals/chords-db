@@ -2,25 +2,23 @@ export default {
   key: 'D',
   suffix: 'm6',
   positions: [{
-    frets: 'x31213',
+    frets: 'xx0201',
+    fingers: '000201'
+  },
+  {
+    frets: 'x53435',
     fingers: '031214',
-    barres: 1,
+    barres: 3,
     capo: true
   },
   {
-    frets: 'x35x45',
+    frets: 'x57x67',
     fingers: '013024'
   },
   {
-    frets: '8x7888',
-    fingers: '201334',
-    barres: [7, 8],
-    capo: true
-  },
-  {
-    frets: '8aa8a8',
-    fingers: '123141',
-    barres: 8,
+    frets: 'ax9aaa',
+    fingers: '201333',
+    barres: [9, 10],
     capo: true
   }]
 }

@@ -2,27 +2,24 @@ export default {
   key: 'D',
   suffix: 'maj11',
   positions: [{
-    frets: 'x31331',
-    fingers: '021341',
-    barres: 1,
+    frets: 'xx0022',
+    fingers: '000011',
+    barres: 2
+  },
+  {
+    frets: '555675',
+    fingers: '111231',
+    barres: 5,
     capo: true
   },
   {
-    frets: 'x33343',
-    fingers: '011121',
-    barres: 3,
-    capo: true
+    frets: 'x90789',
+    fingers: '030124'
   },
   {
-    frets: '868766',
-    fingers: '314211',
-    barres: 6,
-    capo: true
-  },
-  {
-    frets: '88888a',
-    fingers: '111114',
-    barres: 8,
+    frets: 'aabbaa',
+    fingers: '112311',
+    barres: 10,
     capo: true
   }]
 }
