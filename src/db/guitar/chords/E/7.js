@@ -2,25 +2,23 @@ export default {
   key: 'E',
   suffix: '7',
   positions: [{
-    frets: '020130',
-    fingers: '020140'
-  },
-  {
-    frets: 'xx2434',
-    fingers: '001324'
+    frets: '020100',
+    fingers: '020100'
   },
   {
     frets: 'x7675x',
     fingers: '032410'
   },
   {
-    frets: 'x79797',
-    fingers: '013141',
-    barres: 7
+    frets: '779797',
+    fingers: '113141',
+    barres: 7,
+    capo: true
   },
   {
     frets: 'xx999a',
     fingers: '001112',
-    barres: 9
+    barres: 9,
+    capo: true
   }]
 }
