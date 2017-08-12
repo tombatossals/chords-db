@@ -1,21 +1,22 @@
 export default {
-  key: 'E',
+  key: 'F',
   suffix: 'mmaj7b5',
   positions: [{
-    frets: '0110x0',
-    fingers: '012000'
+    frets: '122100',
+    fingers: '123100',
+    barres: 1
   },
   {
-    frets: 'xx2343',
+    frets: 'xx3454',
     fingers: '001243'
   },
   {
-    frets: '67888x',
+    frets: '78999x',
     fingers: '123330',
-    barres: 8
+    barres: 9
   },
   {
-    frets: 'x7888x',
+    frets: 'x8999x',
     fingers: '012340'
   }]
 }

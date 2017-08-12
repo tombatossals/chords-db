@@ -1,5 +1,5 @@
 export default {
-  key: 'E',
+  key: 'F',
   suffix: 'madd9',
   positions: [{
     frets: 'xx3113',
