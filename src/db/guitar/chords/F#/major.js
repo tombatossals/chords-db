@@ -4,25 +4,25 @@ export default {
   positions: [{
     frets: '244322',
     fingers: '134211',
-    barres: 2
+    barres: 2,
+    capo: true
   },
   {
-    frets: 'xx4676',
-    fingers: '001243'
+    frets: 'x44676',
+    fingers: '011243',
+    barres: 4,
+    capo: true
   },
   {
-    frets: 'xx8676',
-    fingers: '003121',
-    barres: 6
+    frets: '698676',
+    fingers: '143121',
+    barres: 6,
+    capo: true
   },
   {
-    frets: 'x9bbbx',
-    fingers: '013330',
-    barres: 11
-  },
-  {
-    frets: 'xdbbbx',
-    fingers: '031110',
-    barres: 11
+    frets: '99bbb9',
+    fingers: '112341',
+    barres: 9,
+    capo: true
   }]
 }

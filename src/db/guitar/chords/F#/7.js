@@ -2,25 +2,25 @@ export default {
   key: 'F#',
   suffix: '7',
   positions: [{
-    frets: 'xx4320',
-    fingers: '003210'
+    frets: '242322',
+    fingers: '131211',
+    barres: 2,
+    capo: true
   },
   {
-    frets: 'xx4656',
-    fingers: '001324'
+    frets: 'x44656',
+    fingers: '011324',
+    barres: 4,
+    capo: true
   },
   {
     frets: 'x9897x',
     fingers: '032410'
   },
   {
-    frets: 'x9b9b9',
-    fingers: '013141',
-    barres: 9
-  },
-  {
-    frets: 'xxbbbc',
-    fingers: '001112',
-    barres: 11
+    frets: '99b9b9',
+    fingers: '113141',
+    barres: 9,
+    capo: true
   }]
 }

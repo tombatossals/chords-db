@@ -1,27 +1,27 @@
 export default {
   key: 'F#',
-  suffix: 'maj7',
+  suffix: 'mmaj7',
   positions: [{
-    frets: '243322',
-    fingers: '142311',
+    frets: '243222',
+    fingers: '132111',
     barres: 2,
     capo: true
   },
   {
-    frets: 'x44666',
-    fingers: '011333',
+    frets: 'x44665',
+    fingers: '011342',
     barres: 4,
     capo: true
   },
   {
-    frets: 'x98666',
-    fingers: '043111',
+    frets: 'x9766x',
+    fingers: '042110',
     barres: 6,
     capo: true
   },
   {
-    frets: '99bab9',
-    fingers: '113241',
+    frets: '99baa9',
+    fingers: '114231',
     barres: 9,
     capo: true
   }]
