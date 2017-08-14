@@ -6,20 +6,19 @@ export default {
     fingers: '210000'
   },
   {
-    frets: 'xx5453',
-    fingers: '003241'
+    frets: '3x243x',
+    fingers: '201430'
   },
   {
-    frets: 'xx5757',
-    fingers: '001314',
-    barres: 5
+    frets: 'x55757',
+    fingers: '011314',
+    barres: 5,
+    capo: true
   },
   {
-    frets: 'xa998x',
-    fingers: '042310'
-  },
-  {
-    frets: 'xac9cx',
-    fingers: '023140'
+    frets: 'xacccc',
+    fingers: '013334',
+    barres: [10, 12],
+    capo: true
   }]
 }
