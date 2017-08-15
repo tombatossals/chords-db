@@ -3,8 +3,7 @@ export default {
   suffix: 'alt',
   positions: [{
     frets: 'xx1243',
-    fingers: '001243',
-    barres: 1
+    fingers: '001243'
   },
   {
     frets: 'x65045',

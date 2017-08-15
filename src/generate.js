@@ -14,9 +14,15 @@ const prettyObjectToJSON = obj => JSON.stringify(obj, null, 4)
 const getInstrumentsDB = () =>
   Object.assign(...Object.keys(db).map(instrument => ({ [instrument]: generate(db[instrument]) })))
 
+const generateIndex = (instruments) =>
+  fs.writeFileSync(path.join(__dirname, '..', 'lib', `instruments.json`),
+    JSON.stringify({ instruments }))
+
 const processCommand = (json) =>
   json
-  ? createDirIfNeeded() && Object.keys(db).map(instrument => generateJSON(instrument))
+  ? createDirIfNeeded() &&
+    Object.keys(db).map(instrument => generateJSON(instrument)) &&
+    generateIndex(Object.keys(db))
   : console.log(prettyObjectToJSON(getInstrumentsDB()))
 
 const json = process.argv.length > 2 && process.argv[2] === 'json'
