@@ -2,24 +2,22 @@ export default {
   key: 'Bb',
   suffix: '6',
   positions: [{
-    frets: 'x1303x',
-    fingers: '013040'
+    frets: 'x13333',
+    fingers: '013333',
+    barres: 3
   },
   {
-    frets: '6553xx',
-    fingers: '423100'
+    frets: '650066',
+    fingers: '210034'
   },
   {
-    frets: 'xx8786',
-    fingers: '003241'
+    frets: '68x786',
+    fingers: '130240',
+    barres: 6,
+    capo: true
   },
   {
-    frets: 'xx8a8a',
-    fingers: '001314',
-    barres: 8
-  },
-  {
-    frets: 'xdccbx',
+    frets: 'xdbbax',
     fingers: '042310'
   }]
 }
