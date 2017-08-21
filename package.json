@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest src",
     "stdout": "babel-node src/generate",
-    "standard": "standard",
     "build": "babel-node src/generate json",
-    "prepublish": "npm run build"
+    "precommit": "lint-staged",
+    "prepublish": "npm run build",
+    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -31,11 +32,19 @@
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-preset-env": "^1.6.0",
+    "husky": "^0.14.3",
     "jest": "^20.0.4",
-    "standard": "^10.0.3"
+    "lint-staged": "^4.0.3",
+    "prettier": "^1.5.3"
   },
   "jest": {
     "verbose": false,
     "bail": true
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }

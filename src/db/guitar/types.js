@@ -31,7 +31,7 @@ export default [
   },
   {
     suffix: 'maj7',
-    alternate: [ '&bigtriangleup;', 'major7', 'M7' ],
+    alternate: ['&bigtriangleup;', 'major7', 'M7'],
     name: 'major seventh'
   },
   {
@@ -48,7 +48,7 @@ export default [
   },
   {
     suffix: 'm',
-    alternate: [ 'min', 'minor', '-' ],
+    alternate: ['min', 'minor', '-'],
     name: 'minor'
   },
   {
@@ -180,4 +180,4 @@ export default [
     suffix: 'dim7',
     name: 'diminished seventh'
   }
-]
+];
