@@ -22,17 +22,37 @@ const getInstrumentsDB = () =>
     }))
   );
 
-const generateIndex = instruments =>
+const getNumberOfPositions = suffixes =>
+  suffixes.reduce((sum, suffix) => sum + suffix.positions.length, 0);
+
+const getNumberOfChords = chords =>
+  Object.keys(chords).reduce(
+    (sum, key) => sum + getNumberOfPositions(chords[key]),
+    0
+  );
+
+const getSuffixes = types => types.map(type => type.name);
+
+const generateIndex = db =>
   fs.writeFileSync(
     path.join(__dirname, '..', 'lib', `instruments.json`),
-    JSON.stringify({ instruments })
+    JSON.stringify(
+      Object.assign(
+        ...Object.keys(db).map(instrument => ({
+          [instrument]: Object.assign(db[instrument].main, {
+            suffixes: getSuffixes(db[instrument].types),
+            numberOfChords: getNumberOfChords(db[instrument].chords)
+          })
+        }))
+      )
+    )
   );
 
 const processCommand = json =>
   json
     ? createDirIfNeeded() &&
-      Object.keys(db).map(instrument => generateJSON(instrument)) &&
-      generateIndex(Object.keys(db))
+      generateIndex(db) &&
+      Object.keys(db).map(instrument => generateJSON(instrument))
     : console.log(prettyObjectToJSON(getInstrumentsDB()));
 
 const json = process.argv.length > 2 && process.argv[2] === 'json';
