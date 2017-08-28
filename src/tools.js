@@ -36,7 +36,8 @@ const processPosition = (position, tunning) => {
   });
 };
 
-export const unique = arr => Array.from(new Set(arr));
+export const unique = arr =>
+  arr.filter((elem, pos, a) => a.indexOf(elem) === pos);
 
 export const numberOfBarres = str =>
   unique(str.split(''))
@@ -67,31 +68,26 @@ const processChords = (chords, tunning) =>
 
 export const generate = (instrument, tunning = 'standard') =>
   Object.assign(instrument, {
-    chords: processChords(instrument.chords, instrument.main.tunnings[tunning])
+    chords: processChords(instrument.chords, instrument.tunnings[tunning])
   });
 
-const midiKeysOffsets = {
-  C: 0,
-  Csharp: 1,
-  Db: 1,
-  D: 2,
-  Dsharp: 3,
-  Eb: 3,
-  E: 4,
-  F: 5,
-  Fsharp: 6,
-  Gb: 6,
-  G: 7,
-  Gsharp: 8,
-  Ab: 8,
-  A: 9,
-  Asharp: 10,
-  Bb: 10,
-  B: 11
-};
+const midiNumbers = [
+  'C',
+  'C#',
+  'D',
+  'D#',
+  'E',
+  'F',
+  'F#',
+  'G',
+  'G#',
+  'A',
+  'A#',
+  'B'
+];
 
 const midiNote = note =>
-  (parseInt(note[1], 10) + 1) * 12 + midiKeysOffsets[note[0]];
+  (parseInt(note[1], 10) + 1) * 12 + midiNumbers.indexOf(note[0]);
 
 const string2midi = (fret, string, tunning) =>
   fret >= 0 ? midiNote(tunning[string]) + fret : -1;
@@ -101,18 +97,4 @@ export const chord2midi = (frets, tunning) =>
     .map((fret, string) => string2midi(fret, string, tunning))
     .filter(note => note > 0);
 
-export const getNoteFromMidiNumber = number =>
-  Object.keys(midiKeysOffsets).filter(
-    key => midiKeysOffsets[key] === number % 12
-  )[0];
-
-export const onlyDuplicates = fingers => {
-  const arr = fingers.split('').filter(x => parseInt(x, 0) > 0);
-  const unique = new Set(arr);
-
-  const duplicates = [];
-  for (let x of unique) {
-    arr.filter(i => i === x).length > 1 && duplicates.push(x);
-  }
-  return duplicates;
-};
+export const getNoteFromMidiNumber = number => midiNumbers[number % 12];

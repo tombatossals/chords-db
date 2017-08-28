@@ -1,9 +1,13 @@
-import main from './main';
-import types from './types';
-import chords from './chords';
+import main from "./main";
+import tunnings from "./tunnings";
+import keys from "./keys";
+import suffixes from "./suffixes";
+import chords from "./chords";
 
 export default {
   main,
-  types,
+  tunnings,
+  keys,
+  suffixes,
   chords
 };

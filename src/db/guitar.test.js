@@ -1,15 +1,7 @@
 /* global it, describe, expect */
 
 import guitar from './guitar';
-import {
-  strChord2array,
-  chord2midi,
-  processString,
-  numberOfBarres,
-  unique,
-  getNoteFromMidiNumber,
-  onlyDuplicates
-} from '../tools';
+import { strChord2array, chord2midi, processString } from '../tools';
 
 describe('Guitar Chords', () => {
   describe('Strings', () =>
@@ -22,13 +14,13 @@ describe('Guitar Chords', () => {
     ));
 
   describe(`Test Cmajor midi notes`, () =>
-    it(`Should match [ 43, 48, 52, 55, 60, 64 ]`, () => {
+    it(`Should match [ 48, 52, 55, 60, 64 ]`, () => {
       const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
         guitar.main.tunnings['standard']
       );
-      const CmajorNotes = [43, 48, 52, 55, 60, 64];
+      const CmajorNotes = [48, 52, 55, 60, 64];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
     }));
 
@@ -92,69 +84,22 @@ describe('Guitar Chords', () => {
                 });
               }
 
-              describe(`Barres`, () => {
-                if (position.fingers && !position.barres) {
-                  it(`The ${index + 1} position needs a barres property`, () =>
-                    expect(numberOfBarres(position.fingers)).toEqual(0));
-                }
-
-                if (!position.barres) {
-                  it(`The ${index +
-                    1} position doesn't need a capo property`, () =>
-                    expect(position.capo).not.toEqual(true));
-                }
-
-                if (position.barres) {
+              if (position.barres) {
+                describe(`Barres`, () => {
                   const barres = Array.isArray(position.barres)
                     ? position.barres
                     : [position.barres];
-
-                  if (position.fingers && !position.capo) {
-                    it(`The ${index +
-                      1} position needs a barres property`, () => {
-                      const barres = onlyDuplicates(position.fingers);
-                      expect(numberOfBarres(position.fingers)).toEqual(
-                        barres.length
-                      );
-                    });
-                  }
-
                   barres.map(barre => {
-                    it(`The barre at position ${index +
-                      1} should have frets`, () =>
+                    it(`The barre ${barre} should have frets`, () =>
                       expect(frets.indexOf(barre)).not.toEqual(-1));
-                    if (!position.capo) {
-                      it(`The barre at position ${index +
-                        1} should have two strings at least`, () =>
-                        expect(frets.indexOf(barre)).not.toEqual(
-                          frets.lastIndexOf(barre)
-                        ));
-                    }
+                    it(`The barre ${barre} should have two strings at least`, () =>
+                      expect(frets.indexOf(barre)).not.toEqual(
+                        frets.lastIndexOf(barre)
+                      ));
                   });
-                }
-              });
+                });
+              }
             }));
-
-          describe('MIDI checks', () => {
-            var initialNotes = chord2midi(
-              processString(chord.positions[0].frets),
-              guitar.main.tunnings['standard']
-            ).map(n => getNoteFromMidiNumber(n));
-            chord.positions.map((position, index) => {
-              it(`The MIDI notes should be homogeneous at position ${index +
-                1}`, () => {
-                const notes = chord2midi(
-                  processString(position.frets),
-                  guitar.main.tunnings['standard']
-                ).map(n => getNoteFromMidiNumber(n));
-                if (unique(notes).length === unique(initialNotes)) {
-                  expect(unique(notes.sort())).toEqual(
-                    unique(initialNotes.sort())
-                  );
-                }
-              });
-            });
-          });
         })
       );
     })

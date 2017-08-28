@@ -5,23 +5,26 @@ export default {
     {
       frets: 'x43111',
       fingers: '043111',
-      barres: 1,
-      capo: true
+      barres: 1
     },
     {
-      frets: '446564',
-      fingers: '113241',
-      barres: 4,
-      capo: true
+      frets: 'x46564',
+      fingers: '013241',
+      barres: 4
     },
     {
-      frets: 'xxx668',
-      fingers: '000113',
+      frets: 'xx6668',
+      fingers: '001113',
       barres: 6
     },
     {
       frets: '9xaa9x',
       fingers: '103420'
+    },
+    {
+      frets: 'xxbddd',
+      fingers: '001333',
+      barres: 13
     }
   ]
 };
