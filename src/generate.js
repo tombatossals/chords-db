@@ -22,6 +22,30 @@ const getInstrumentsDB = () =>
     }))
   );
 
+const getNumberOfPositions = suffixes =>
+  suffixes.reduce((sum, suffix) => sum + suffix.positions.length, 0);
+
+const getNumberOfChords = chords =>
+  Object.keys(chords).reduce(
+    (sum, key) => sum + getNumberOfPositions(chords[key]),
+    0
+  );
+
+const generateIndex = db =>
+  fs.writeFileSync(
+    path.join(__dirname, '..', 'lib', `instruments.json`),
+    JSON.stringify(
+      Object.assign(
+        ...Object.keys(db).map(instrument => ({
+          [instrument]: Object.assign(db[instrument].main, {
+            suffixes: db[instrument].suffixes,
+            numberOfChords: getNumberOfChords(db[instrument].chords)
+          })
+        }))
+      )
+    )
+  );
+
 const processCommand = json =>
   json
     ? createDirIfNeeded() &&
