@@ -38,7 +38,6 @@ const generateIndex = db =>
       Object.assign(
         ...Object.keys(db).map(instrument => ({
           [instrument]: Object.assign(db[instrument].main, {
-            suffixes: db[instrument].suffixes,
             numberOfChords: getNumberOfChords(db[instrument].chords)
           })
         }))
