@@ -49,6 +49,7 @@ const generateIndex = db =>
 const processCommand = json =>
   json
     ? createDirIfNeeded() &&
+      generateIndex(db) &&
       Object.keys(db).map(instrument => generateJSON(instrument))
     : console.log(prettyObjectToJSON(getInstrumentsDB()));
 

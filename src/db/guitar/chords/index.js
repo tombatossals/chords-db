@@ -20,8 +20,8 @@ export default {
   F,
   Fsharp,
   G,
-  Ab,
   A,
-  Bb,
-  B
+  Ab,
+  B,
+  Bb
 };

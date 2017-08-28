@@ -3,12 +3,25 @@ export default {
   suffix: 'sus4',
   positions: [
     {
-      frets: 'x3301x',
-      fingers: '034010'
+      frets: 'x33011',
+      fingers: '034011',
+      barres: 1
     },
     {
-      frets: 'x3556x',
-      fingers: '013340'
+      frets: '335563',
+      fingers: '112341',
+      barres: 3,
+      capo: true
+    },
+    {
+      frets: '88x068',
+      fingers: '230014'
+    },
+    {
+      frets: '8aaa88',
+      fingers: '123411',
+      barres: 8,
+      capo: true
     }
   ]
 };

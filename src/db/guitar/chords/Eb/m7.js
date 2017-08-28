@@ -1,0 +1,28 @@
+export default {
+  key: 'Eb',
+  suffix: 'm7',
+  positions: [
+    {
+      frets: 'xx1322',
+      fingers: '001423',
+      barres: 1,
+      capo: true
+    },
+    {
+      frets: '668676',
+      fingers: '113121',
+      barres: 6,
+      capo: true
+    },
+    {
+      frets: 'xx8879',
+      fingers: '002314'
+    },
+    {
+      frets: 'bdbbbb',
+      fingers: '141111',
+      barres: 11,
+      capo: true
+    }
+  ]
+};
