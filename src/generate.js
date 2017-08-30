@@ -31,7 +31,7 @@ const getNumberOfChords = chords =>
     0
   );
 
-const generateIndex = db =>
+const generateIndex = db => {
   fs.writeFileSync(
     path.join(__dirname, '..', 'lib', `instruments.json`),
     JSON.stringify(
@@ -44,6 +44,8 @@ const generateIndex = db =>
       )
     )
   );
+  return true;
+};
 
 const processCommand = json =>
   json
