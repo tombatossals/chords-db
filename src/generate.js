@@ -43,7 +43,7 @@ const generateIndex = db =>
         }))
       )
     )
-  ) || true;
+  );
 
 const processCommand = json =>
   json

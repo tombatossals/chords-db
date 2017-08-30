@@ -24,7 +24,6 @@ import _13 from './13';
 import _13b9 from './13b9';
 import _13b5b9 from './13b5b9';
 import b13b9 from './b13b9';
-import b13sharp9 from './b13#9';
 import maj7 from './maj7';
 import maj7b5 from './maj7b5';
 import maj7sharp5 from './maj7#5';
