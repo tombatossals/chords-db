@@ -3,22 +3,22 @@ export default {
   suffix: 'mmaj9',
   positions: [
     {
-      frets: '536400',
+      frets: 'x20322',
+      fingers: '010423'
+    },
+    {
+      frets: '75860x',
       fingers: '314200'
     },
     {
-      frets: 'x06504',
-      fingers: '003201'
-    },
-    {
-      frets: '576557',
+      frets: '798779',
       fingers: '132114',
-      barres: 5,
+      barres: 7,
       capo: true
     },
     {
-      frets: 'x09998',
-      fingers: '002341'
+      frets: 'xecfex',
+      fingers: '031430'
     }
   ]
 };

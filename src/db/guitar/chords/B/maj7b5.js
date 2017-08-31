@@ -3,21 +3,21 @@ export default {
   suffix: 'maj7b5',
   positions: [
     {
-      frets: 'x01124',
-      fingers: '001124',
-      barres: 1
+      frets: 'x2334x',
+      fingers: '012340'
     },
     {
-      frets: 'x01224',
-      fingers: '001224',
-      barres: 2
+      frets: '768866',
+      fingers: '213411',
+      barres: 6,
+      capo: true
     },
     {
-      frets: '5666xx',
+      frets: '78880x',
       fingers: '123400'
     },
     {
-      frets: 'x07899',
+      frets: 'xx9abb',
       fingers: '001234'
     }
   ]

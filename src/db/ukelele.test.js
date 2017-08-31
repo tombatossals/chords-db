@@ -15,9 +15,9 @@ describe('Ukelele Chords', () => {
     it('Should have 4 strings', () => expect(ukelele.main.strings).toEqual(4)));
 
   describe('Types', () =>
-    ukelele.types.map(type =>
-      it(`Type suffix ${type.suffix} should have a description`, () =>
-        expect(type.name).toBeDefined())
+    ukelele.suffixes.map(suffix =>
+      it(`Type suffix ${suffix} should have a description`, () =>
+        expect(suffix).toBeDefined())
     ));
 
   describe(`Test Cmajor midi notes`, () =>
@@ -25,7 +25,7 @@ describe('Ukelele Chords', () => {
       const Cmajor = ukelele.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
-        ukelele.main.tunnings['standard']
+        ukelele.tunnings['standard']
       );
       const CmajorNotes = [67, 60, 64, 72];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));

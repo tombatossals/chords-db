@@ -3,23 +3,25 @@ export default {
   suffix: 'm7',
   positions: [
     {
-      frets: 'x02010',
-      fingers: '002010'
-    },
-    {
-      frets: 'x02213',
-      fingers: '002314'
-    },
-    {
-      frets: '575555',
-      fingers: '131111',
-      barres: 5,
+      frets: '224232',
+      fingers: '113121',
+      barres: 2,
       capo: true
     },
     {
-      frets: 'x77988',
-      fingers: '011423',
+      frets: 'xx4435',
+      fingers: '002314'
+    },
+    {
+      frets: '797777',
+      fingers: '131111',
       barres: 7,
+      capo: true
+    },
+    {
+      frets: 'x99baa',
+      fingers: '011423',
+      barres: 9,
       capo: true
     }
   ]

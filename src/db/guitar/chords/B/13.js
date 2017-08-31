@@ -3,23 +3,27 @@ export default {
   suffix: '13',
   positions: [
     {
-      frets: 'x02022',
-      fingers: '001023'
+      frets: 'x21244',
+      fingers: '021344',
+      barres: 4
     },
     {
-      frets: '544030',
-      fingers: '423010'
-    },
-    {
-      frets: '575675',
-      fingers: '131241',
-      barres: 5,
+      frets: '222244',
+      fingers: '111134',
+      barres: 2,
       capo: true
     },
     {
-      frets: 'xcbcee',
-      fingers: '021344',
-      barres: 14
+      frets: '746445',
+      fingers: '413112',
+      barres: 4,
+      capo: true
+    },
+    {
+      frets: '777899',
+      fingers: '111234',
+      barres: 7,
+      capo: true
     }
   ]
 };

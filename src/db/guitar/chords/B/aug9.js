@@ -3,20 +3,27 @@ export default {
   suffix: 'aug9',
   positions: [
     {
-      frets: 'x03423',
-      fingers: '002413'
+      frets: 'x21223',
+      fingers: '021334',
+      barres: 2
     },
     {
-      frets: '543005',
-      fingers: '321004'
+      frets: '545445',
+      fingers: '213114',
+      barres: 4,
+      capo: true
     },
     {
-      frets: 'x05667',
-      fingers: '001234'
+      frets: '76768x',
+      fingers: '213140',
+      barres: 6,
+      capo: true
     },
     {
-      frets: 'xcbc0d',
-      fingers: '021304'
+      frets: 'bcbccb',
+      fingers: '121341',
+      barres: 11,
+      capo: true
     }
   ]
 };
