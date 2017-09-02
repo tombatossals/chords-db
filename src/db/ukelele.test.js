@@ -133,14 +133,14 @@ describe('Ukelele Chords', () => {
             describe('MIDI checks', () => {
               var initialNotes = chord2midi(
                 processString(chord.positions[0].frets),
-                ukelele.main.tunnings['standard']
+                ukelele.tunnings['standard']
               ).map(n => getNoteFromMidiNumber(n));
               chord.positions.map((position, index) => {
                 it(`The MIDI notes should be homogeneous at position ${index +
                   1}`, () => {
                   const notes = chord2midi(
                     processString(position.frets),
-                    ukelele.main.tunnings['standard']
+                    ukelele.tunnings['standard']
                   ).map(n => getNoteFromMidiNumber(n));
                   expect(unique(notes.sort())).toEqual(
                     unique(initialNotes.sort())

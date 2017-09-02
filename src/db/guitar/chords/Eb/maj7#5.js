@@ -13,9 +13,7 @@ export default {
     },
     {
       frets: 'x6978x',
-      fingers: '014230',
-      barres: 6,
-      capo: true
+      fingers: '014230'
     },
     {
       frets: 'bxcccb',

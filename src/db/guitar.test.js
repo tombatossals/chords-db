@@ -25,7 +25,7 @@ describe('Guitar Chords', () => {
     }));
 
   Object.keys(guitar.chords).map(key =>
-    describe(`Key ${key} chords`, () => {
+    describe(`Key ${key.replace('sharp', '#')}`, () => {
       const chords = guitar.chords[key];
 
       it(`Should not have duplicated suffixes`, () => {
@@ -37,7 +37,7 @@ describe('Guitar Chords', () => {
       });
 
       chords.map(chord =>
-        describe(`Chord ${chord.key}${chord.suffix}`, () => {
+        describe(`Suffix ${chord.key}${chord.suffix}`, () => {
           describe('General properties', () => {
             it(`The chord ${key}${chord.suffix} should have a defined key property`, () =>
               expect(chord.key).toEqual(key.replace('sharp', '#')));
@@ -90,9 +90,11 @@ describe('Guitar Chords', () => {
                     ? position.barres
                     : [position.barres];
                   barres.map(barre => {
-                    it(`The barre ${barre} should have frets`, () =>
+                    it(`The position ${index +
+                      1}, barre ${barre} should have frets`, () =>
                       expect(frets.indexOf(barre)).not.toEqual(-1));
-                    it(`The barre ${barre} should have two strings at least`, () =>
+                    it(`The position ${index +
+                      1}, barre ${barre} should have two strings at least`, () =>
                       expect(frets.indexOf(barre)).not.toEqual(
                         frets.lastIndexOf(barre)
                       ));

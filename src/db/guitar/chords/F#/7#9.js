@@ -5,8 +5,7 @@ export default {
     {
       frets: '212222',
       fingers: '213334',
-      barres: [1, 2],
-      capo: true
+      barres: 2
     },
     {
       frets: '242325',

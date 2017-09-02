@@ -9,7 +9,7 @@ export default {
       capo: true
     },
     {
-      frets: '2x33x4',
+      frets: '2x3324',
       fingers: '102314',
       barres: 2,
       capo: true
