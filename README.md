@@ -17,7 +17,8 @@ export default {
   {
     frets: '55775x',
     fingers: '114310',
-    barres: 5
+    barres: 5,
+    capo: true
   }]
 }
 
@@ -26,12 +27,14 @@ export default {
 Each *position* define a new chord variation of the Dsus2 chord.
 We must define the *frets* needed to obtain the chord in the respective strings.
 We can define too the *fingers* information for easy reading of the chord.
-If the chord need to barre some string, we will define if in the *barre* field.
+If the chord need to barre some string, we will define if in the *barre* field. If
+you want the barre be represented with capo, you can define the "capo" property too.
 
-This information will render this two chords using an SVG renderer:
-
-![Dsus2](https://github.com/tombatossals/react-chords/raw/master/public/img/dsus2.png "Dsus2")
-
-I'm using this database with a react and SVG chord renderer utility, you can find it here:
+This information will render this two chords using an SVG renderer I'm coding here.
 
 [react-chords](https://tombatossals.github.io/react-chords)
+
+You can take a look of the current state of the database in this site:
+
+[chord-collection](https://chord-collection.com)
+

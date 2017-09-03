@@ -1,3 +1,10 @@
+## 0.3.9 (Sep 3, 2017)
+
+### Database
+* All guitar chords completed
+* All tests passing
+* New JSON structure
+
 ## 0.3.7 (Jun 07, 2017)
 
 ### Database
