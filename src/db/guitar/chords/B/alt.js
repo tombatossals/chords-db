@@ -3,20 +3,20 @@ export default {
   suffix: 'alt',
   positions: [
     {
-      frets: 'x0122x',
-      fingers: '001230'
+      frets: 'x2344x',
+      fingers: '012340'
     },
     {
-      frets: 'x07645',
+      frets: 'xx9867',
       fingers: '004312'
     },
     {
-      frets: 'x0b8a9',
-      fingers: '004132'
+      frets: '78980x',
+      fingers: '124300'
     },
     {
-      frets: 'xcdeex',
-      fingers: '012340'
+      frets: 'xx9a0b',
+      fingers: '001203'
     }
   ]
 };

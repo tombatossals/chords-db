@@ -1,3 +1,6 @@
+## 0.4.0 (Feb 27, 2018)
+* Solves some errors on Guitar B chords
+
 ## 0.3.9 (Sep 3, 2017)
 
 ### Database

@@ -3,20 +3,20 @@ export default {
   suffix: 'dim',
   positions: [
     {
-      frets: 'x0121x',
-      fingers: '001320'
+      frets: 'x20x01',
+      fingers: '030002'
     },
     {
-      frets: '53x43x',
+      frets: 'x2343x',
+      fingers: '012430'
+    },
+    {
+      frets: '75x76x',
       fingers: '310420'
     },
     {
-      frets: 'xx78x8',
+      frets: 'xx9axa',
       fingers: '001203'
-    },
-    {
-      frets: 'xcaxab',
-      fingers: '041023'
     }
   ]
 };
