@@ -33,9 +33,9 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "husky": "^0.14.3",
-    "jest": "^22.0.0",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.6.1"
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
   },
   "jest": {
     "verbose": false,
