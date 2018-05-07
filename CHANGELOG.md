@@ -1,3 +1,6 @@
+## 0.4.2 (May 07, 2018)
+* Updated @babel package dependencies.
+
 ## 0.4.1 (May 07, 2018)
 * Solved some errors on Guitar Amaj11 chords.
 * Updated package dependencies.
