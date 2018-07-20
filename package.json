@@ -1,6 +1,6 @@
 {
   "name": "@tombatossals/chords-db",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "Instrument Chords Database",
   "main": "index.js",
   "scripts": {
@@ -30,11 +30,12 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/node": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
     "husky": "^0.14.3",
     "jest": "^22.4.3",
-    "lint-staged": "^7.0.5",
+    "lint-staged": "^7.1.0",
     "prettier": "^1.12.1"
   },
   "jest": {
@@ -49,7 +50,7 @@
   },
   "babel": {
     "presets": [
-      "env"
+      "@babel/preset-env"
     ]
   }
 }
