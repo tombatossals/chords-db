@@ -1,6 +1,6 @@
 /* global it, describe, expect */
 
-import ukelele from './ukelele';
+import ukulele from './ukulele';
 import {
   strChord2array,
   chord2midi,
@@ -10,30 +10,30 @@ import {
   getNoteFromMidiNumber
 } from '../tools';
 
-describe('Ukelele Chords', () => {
+describe('ukulele Chords', () => {
   describe('Strings', () =>
-    it('Should have 4 strings', () => expect(ukelele.main.strings).toEqual(4)));
+    it('Should have 4 strings', () => expect(ukulele.main.strings).toEqual(4)));
 
   describe('Types', () =>
-    ukelele.suffixes.map(suffix =>
+    ukulele.suffixes.map(suffix =>
       it(`Type suffix ${suffix} should have a description`, () =>
         expect(suffix).toBeDefined())
     ));
 
   describe(`Test Cmajor midi notes`, () =>
     it(`Should match [ 67, 60, 64, 72 ]`, () => {
-      const Cmajor = ukelele.chords.C.find(chord => chord.suffix === 'major');
+      const Cmajor = ukulele.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
-        ukelele.tunnings['standard']
+        ukulele.tunnings['standard']
       );
       const CmajorNotes = [67, 60, 64, 72];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
     }));
 
-  Object.keys(ukelele.chords).map(key =>
+  Object.keys(ukulele.chords).map(key =>
     describe(`Key ${key} chords`, () => {
-      const chords = ukelele.chords[key];
+      const chords = ukulele.chords[key];
 
       it(`Should not have duplicated suffixes`, () => {
         let seen = new Set();
@@ -46,11 +46,17 @@ describe('Ukelele Chords', () => {
       chords.map(chord =>
         describe(`Chord ${chord.key}${chord.suffix}`, () => {
           describe('General properties', () => {
-            it(`The chord ${key}${chord.suffix} should have a defined key property`, () =>
+            it(`The chord ${key}${
+              chord.suffix
+            } should have a defined key property`, () =>
               expect(chord.key).toEqual(key.replace('sharp', '#')));
-            it(`The chord ${key}${chord.suffix} should have a defined suffix property`, () =>
+            it(`The chord ${key}${
+              chord.suffix
+            } should have a defined suffix property`, () =>
               expect(chord.suffix).toBeDefined());
-            it(`The chord ${key}${chord.suffix} should have a list of positions`, () =>
+            it(`The chord ${key}${
+              chord.suffix
+            } should have a list of positions`, () =>
               expect(chord.positions).toBeInstanceOf(Array));
           });
 
@@ -71,7 +77,7 @@ describe('Ukelele Chords', () => {
                   1} position frets array should have at most 4 fingers of distance`, () =>
                   expect(
                     Math.max(...effectiveFrets) - Math.min(...effectiveFrets)
-                  ).toBeLessThan(ukelele.main.fretsOnChord));
+                  ).toBeLessThan(ukulele.main.fretsOnChord));
               });
 
               if (position.fingers) {
@@ -133,14 +139,14 @@ describe('Ukelele Chords', () => {
             describe('MIDI checks', () => {
               var initialNotes = chord2midi(
                 processString(chord.positions[0].frets),
-                ukelele.tunnings['standard']
+                ukulele.tunnings['standard']
               ).map(n => getNoteFromMidiNumber(n));
               chord.positions.map((position, index) => {
                 it(`The MIDI notes should be homogeneous at position ${index +
                   1}`, () => {
                   const notes = chord2midi(
                     processString(position.frets),
-                    ukelele.tunnings['standard']
+                    ukulele.tunnings['standard']
                   ).map(n => getNoteFromMidiNumber(n));
                   expect(unique(notes.sort())).toEqual(
                     unique(initialNotes.sort())

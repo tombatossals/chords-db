@@ -1,3 +1,7 @@
+## 0.4.3 (Jul 20, 2018)
+* Renamed "ukelele" to "ukulele"
+* Updated libraries
+
 ## 0.4.2 (May 07, 2018)
 * Updated @babel package dependencies.
 

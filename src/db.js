@@ -1,7 +1,7 @@
 import { default as guitar } from './db/guitar';
-import { default as ukelele } from './db/ukelele';
+import { default as ukulele } from './db/ukulele';
 
 export default {
   guitar,
-  ukelele
+  ukulele
 };
