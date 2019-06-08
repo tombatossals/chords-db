@@ -30,13 +30,13 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.54",
-    "@babel/node": "^7.0.0-beta.54",
-    "@babel/preset-env": "^7.0.0-beta.54",
-    "husky": "^0.14.3",
-    "jest": "^23.4.1",
-    "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7"
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "husky": "^2.4.0",
+    "jest": "^24.8.0",
+    "lint-staged": "^8.2.0",
+    "prettier": "^1.18.2"
   },
   "jest": {
     "verbose": false,
