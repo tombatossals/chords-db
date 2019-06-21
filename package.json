@@ -33,9 +33,9 @@
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "husky": "^2.4.0",
+    "husky": "^2.4.1",
     "jest": "^24.8.0",
-    "lint-staged": "^8.2.0",
+    "lint-staged": "^8.2.1",
     "prettier": "^1.18.2"
   },
   "jest": {
