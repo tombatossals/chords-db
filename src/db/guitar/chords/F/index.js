@@ -38,6 +38,13 @@ import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
 import madd9 from './madd9';
+import sc from './sc';
+import sd from './sd';
+import sdsarp from './sd#';
+import se from './se';
+import sg from './sg';
+import sa from './sa';
+import msc from './msc';
 
 export default [
   major,
@@ -79,5 +86,12 @@ export default [
   mmaj9,
   mmaj11,
   add9,
-  madd9
+  madd9,
+  sc,
+  sd,
+  sdsarp,
+  se,
+  sg,
+  sa,
+  msc
 ];

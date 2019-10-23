@@ -1,17 +1,17 @@
-import C from './C';
-import Csharp from './C#';
-import D from './D';
-import Eb from './Eb';
-import E from './E';
-import F from './F';
-import Fsharp from './F#';
-import G from './G';
-import A from './A';
-import Ab from './Ab';
-import B from './B';
-import Bb from './Bb';
+import C from './C/index';
+import Csharp from './C#/index';
+import D from './D/index';
+import Eb from './Eb/index';
+import E from './E/index';
+import F from './F/index';
+import Fsharp from './F#/index';
+import G from './G/index';
+import A from './A/index';
+import Ab from './Ab/index';
+import B from './B/index';
+import Bb from './Bb/index';
 
-export default {
+export default [
   C,
   Csharp,
   D,
@@ -20,8 +20,8 @@ export default {
   F,
   Fsharp,
   G,
-  A,
   Ab,
+  A,
+  Bb,
   B,
-  Bb
-};
+];
