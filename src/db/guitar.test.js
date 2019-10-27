@@ -4,16 +4,18 @@ import guitar from './guitar';
 import { strChord2array, chord2midi, processString } from '../tools';
 
 describe('Guitar Chords', () => {
-  describe('Strings', () =>
-    it('Should have 6 strings', () => expect(guitar.main.strings).toEqual(6)));
+  describe('Strings', () => {
+    it('Should have 6 strings', () => expect(guitar.main.strings).toEqual(6));
+  });
 
-  describe('Types', () =>
+  describe('Types', () => {
     guitar.suffixes.map(suffix =>
       it(`Type suffix ${suffix} should have a description`, () =>
         expect(suffix).toBeDefined())
-    ));
+    );
+  });
 
-  describe(`Test Cmajor midi notes`, () =>
+  describe(`Test Cmajor midi notes`, () => {
     it(`Should match [ 48, 52, 55, 60, 64 ]`, () => {
       const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
@@ -22,9 +24,10 @@ describe('Guitar Chords', () => {
       );
       const CmajorNotes = [48, 52, 55, 60, 64];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
-    }));
+    });
+  });
 
-  guitar.chords.map(key =>
+  Object.keys(guitar.chords).map(key =>
     describe(`Key ${key.replace('sharp', '#')}`, () => {
       const chords = guitar.chords[key];
 
@@ -47,7 +50,7 @@ describe('Guitar Chords', () => {
               expect(chord.positions).toBeInstanceOf(Array));
           });
 
-          describe(`Positions`, () =>
+          describe(`Positions`, () => {
             chord.positions.map((position, index) => {
               const frets = Array.isArray(position.frets)
                 ? position.frets
@@ -101,7 +104,8 @@ describe('Guitar Chords', () => {
                   });
                 });
               }
-            }));
+            });
+          });
         })
       );
     })

@@ -11,16 +11,18 @@ import {
 } from '../tools';
 
 describe('ukulele Chords', () => {
-  describe('Strings', () =>
-    it('Should have 4 strings', () => expect(ukulele.main.strings).toEqual(4)));
+  describe('Strings', () => {
+    it('Should have 4 strings', () => expect(ukulele.main.strings).toEqual(4));
+  });
 
-  describe('Types', () =>
+  describe('Types', () => {
     ukulele.suffixes.map(suffix =>
       it(`Type suffix ${suffix} should have a description`, () =>
         expect(suffix).toBeDefined())
-    ));
+    );
+  });
 
-  describe(`Test Cmajor midi notes`, () =>
+  describe(`Test Cmajor midi notes`, () => {
     it(`Should match [ 67, 60, 64, 72 ]`, () => {
       const Cmajor = ukulele.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
@@ -29,7 +31,8 @@ describe('ukulele Chords', () => {
       );
       const CmajorNotes = [67, 60, 64, 72];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
-    }));
+    });
+  });
 
   Object.keys(ukulele.chords).map(key =>
     describe(`Key ${key} chords`, () => {
@@ -46,17 +49,11 @@ describe('ukulele Chords', () => {
       chords.map(chord =>
         describe(`Chord ${chord.key}${chord.suffix}`, () => {
           describe('General properties', () => {
-            it(`The chord ${key}${
-              chord.suffix
-            } should have a defined key property`, () =>
+            it(`The chord ${key}${chord.suffix} should have a defined key property`, () =>
               expect(chord.key).toEqual(key.replace('sharp', '#')));
-            it(`The chord ${key}${
-              chord.suffix
-            } should have a defined suffix property`, () =>
+            it(`The chord ${key}${chord.suffix} should have a defined suffix property`, () =>
               expect(chord.suffix).toBeDefined());
-            it(`The chord ${key}${
-              chord.suffix
-            } should have a list of positions`, () =>
+            it(`The chord ${key}${chord.suffix} should have a list of positions`, () =>
               expect(chord.positions).toBeInstanceOf(Array));
           });
 

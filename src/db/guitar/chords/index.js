@@ -11,7 +11,7 @@ import Ab from './Ab/index';
 import B from './B/index';
 import Bb from './Bb/index';
 
-export default [
+export default {
   C,
   Csharp,
   D,
@@ -23,5 +23,5 @@ export default [
   Ab,
   A,
   Bb,
-  B,
-];
+  B
+};
