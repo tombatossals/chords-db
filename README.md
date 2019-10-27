@@ -30,11 +30,28 @@ We can define too the *fingers* information for easy reading of the chord.
 If the chord need to barre some string, we will define if in the *barre* field. If
 you want the barre be represented with capo, you can define the "capo" property too.
 
-This information will render this two chords using an SVG renderer I'm coding here.
+## How to use
+
+All this information is packed in a JSON library, that you can use to render visually
+with a utility able to parse this information. For example this project below is capable
+of reading any chord in the library and render it as SVG.
 
 [react-chords](https://tombatossals.github.io/react-chords)
 
-You can take a look of the current state of the database in this site:
 
-[chord-collection](https://chord-collection.com)
+
+## How to build/contribute
+
+This project is using *yarn* as package manager, so all the basic command related to 
+the project lifecycle are bound to it. Three basic commands
+
+```
+yarn build
+```
+Generates a new version of the library when new chords are added.
+
+```
+yarn test
+```
+Make some testing of the new added chords. Very useful to detect basic mistakes.
 
