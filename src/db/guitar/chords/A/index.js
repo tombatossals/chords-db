@@ -38,6 +38,18 @@ import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
 import madd9 from './madd9';
+import scsharp from './sc#';
+import msc from './msc';
+import mse from './mse';
+import msf from './msf';
+import msfsharp from './msf#';
+import msg from './msg';
+import msgsharp from './msg#';
+import se from './se';
+import sf from './sf';
+import sfsharp from './sf#';
+import sg from './sg';
+import sgsharp from './sg#';
 
 export default [
   major,
@@ -79,5 +91,17 @@ export default [
   mmaj9,
   mmaj11,
   add9,
-  madd9
+  madd9,
+  scsharp,
+  se,
+  sf,
+  sfsharp,
+  sg,
+  sgsharp,
+  msc,
+  mse,
+  msf,
+  msfsharp,
+  msg,
+  msgsharp
 ];
