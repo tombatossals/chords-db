@@ -20,7 +20,7 @@ describe('Guitar Chords', () => {
       const Cmajor = guitar.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
-        guitar.tunnings['standard']
+        guitar.tunings['standard']
       );
       const CmajorNotes = [48, 52, 55, 60, 64];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));

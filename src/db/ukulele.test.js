@@ -27,7 +27,7 @@ describe('ukulele Chords', () => {
       const Cmajor = ukulele.chords.C.find(chord => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
-        ukulele.tunnings['standard']
+        ukulele.tunings['standard']
       );
       const CmajorNotes = [67, 60, 64, 72];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
@@ -136,14 +136,14 @@ describe('ukulele Chords', () => {
             describe('MIDI checks', () => {
               var initialNotes = chord2midi(
                 processString(chord.positions[0].frets),
-                ukulele.tunnings['standard']
+                ukulele.tunings['standard']
               ).map(n => getNoteFromMidiNumber(n));
               chord.positions.map((position, index) => {
                 it(`The MIDI notes should be homogeneous at position ${index +
                   1}`, () => {
                   const notes = chord2midi(
                     processString(position.frets),
-                    ukulele.tunnings['standard']
+                    ukulele.tunings['standard']
                   ).map(n => getNoteFromMidiNumber(n));
                   expect(unique(notes.sort())).toEqual(
                     unique(initialNotes.sort())
