@@ -26,10 +26,7 @@ const getNumberOfPositions = suffixes =>
   suffixes.reduce((sum, suffix) => sum + suffix.positions.length, 0);
 
 const getNumberOfChords = chords =>
-  Object.keys(chords).reduce(
-    (sum, key) => sum + getNumberOfPositions(chords[key]),
-    0
-  );
+  chords.reduce((sum, chord) => sum + getNumberOfPositions(chord), 0);
 
 const generateIndex = db => {
   fs.writeFileSync(

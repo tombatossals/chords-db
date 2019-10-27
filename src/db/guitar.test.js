@@ -24,7 +24,7 @@ describe('Guitar Chords', () => {
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
     }));
 
-  Object.keys(guitar.chords).map(key =>
+  guitar.chords.map(key =>
     describe(`Key ${key.replace('sharp', '#')}`, () => {
       const chords = guitar.chords[key];
 
