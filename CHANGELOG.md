@@ -1,3 +1,6 @@
+## 0.4.4 (Oct 27, 2019)
+* Added a lot of new guitar chords thanks to @szaza
+* Fixed some typos
 ## 0.4.3 (Jul 20, 2018)
 * Renamed "ukelele" to "ukulele"
 * Updated libraries
