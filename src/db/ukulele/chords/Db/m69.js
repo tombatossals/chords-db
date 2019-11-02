@@ -1,24 +1,24 @@
 export default {
-  key: 'Db',
-  suffix: 'm69',
+  key: "Db",
+  suffix: "m69",
   positions: [
     {
-      frets: '1301',
-      fingers: '1302'
+      frets: "1301",
+      fingers: "1302",
     },
     {
-      frets: '3446',
-      fingers: '1234'
+      frets: "3446",
+      fingers: "1234",
     },
     {
-      frets: '8867',
-      fingers: '3412'
+      frets: "8867",
+      fingers: "3412",
     },
     {
-      frets: '9866',
-      fingers: '4311',
+      frets: "9866",
+      fingers: "4311",
       barres: 6,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

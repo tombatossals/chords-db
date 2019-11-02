@@ -1,26 +1,26 @@
 export default {
-  key: 'C',
-  suffix: 'mmaj7',
+  key: "C",
+  suffix: "mmaj7",
   positions: [
     {
-      frets: 'x3100x',
-      fingers: '031000'
+      frets: "x3100x",
+      fingers: "031000",
     },
     {
-      frets: '335443',
-      fingers: '114231',
+      frets: "335443",
+      fingers: "114231",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: '8a9888',
-      fingers: '132111',
+      frets: "8a9888",
+      fingers: "132111",
       barres: 8,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xxaccb',
-      fingers: '001342'
-    }
-  ]
-};
+      frets: "xxaccb",
+      fingers: "001342",
+    },
+  ],
+}

@@ -1,26 +1,26 @@
 export default {
-  key: 'D',
-  suffix: '9#11',
+  key: "D",
+  suffix: "9#11",
   positions: [
     {
-      frets: 'xx0112',
-      fingers: '000123'
+      frets: "xx0112",
+      fingers: "000123",
     },
     {
-      frets: 'x54554',
-      fingers: '021341',
+      frets: "x54554",
+      fingers: "021341",
       barres: 4,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x90798',
-      fingers: '030142'
+      frets: "x90798",
+      fingers: "030142",
     },
     {
-      frets: 'a9a99a',
-      fingers: '213114',
+      frets: "a9a99a",
+      fingers: "213114",
       barres: 9,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

@@ -1,24 +1,24 @@
 export default {
-  key: 'G',
-  suffix: '6',
+  key: "G",
+  suffix: "6",
   positions: [
     {
-      frets: '0202',
-      fingers: '0102'
+      frets: "0202",
+      fingers: "0102",
     },
     {
-      frets: '4435',
-      fingers: '2314'
+      frets: "4435",
+      fingers: "2314",
     },
     {
-      frets: '7777',
-      fingers: '1111',
+      frets: "7777",
+      fingers: "1111",
       barres: 7,
-      capo: true
+      capo: true,
     },
     {
-      frets: '9baa',
-      fingers: '1423'
-    }
-  ]
-};
+      frets: "9baa",
+      fingers: "1423",
+    },
+  ],
+}

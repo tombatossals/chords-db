@@ -10,7 +10,7 @@
     "import": "babel-node src/import",
     "precommit": "lint-staged",
     "prepublish": "npm run build",
-    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
+    "prettier": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",

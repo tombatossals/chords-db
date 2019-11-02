@@ -1,26 +1,26 @@
 export default {
-  key: 'D',
-  suffix: 'm7b5',
+  key: "D",
+  suffix: "m7b5",
   positions: [
     {
-      frets: '1213',
-      fingers: '1213',
+      frets: "1213",
+      fingers: "1213",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: '5545',
-      fingers: '2314'
+      frets: "5545",
+      fingers: "2314",
     },
     {
-      frets: '7888',
-      fingers: '1234'
+      frets: "7888",
+      fingers: "1234",
     },
     {
-      frets: 'acab',
-      fingers: '1312',
+      frets: "acab",
+      fingers: "1312",
       barres: 10,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

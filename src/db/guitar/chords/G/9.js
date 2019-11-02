@@ -1,27 +1,27 @@
 export default {
-  key: 'G',
-  suffix: '9',
+  key: "G",
+  suffix: "9",
   positions: [
     {
-      frets: '300001',
-      fingers: '300001'
+      frets: "300001",
+      fingers: "300001",
     },
     {
-      frets: '32323x',
-      fingers: '213140',
+      frets: "32323x",
+      fingers: "213140",
       barres: 2,
-      capo: true
+      capo: true,
     },
     {
-      frets: '353435',
-      fingers: '131214',
+      frets: "353435",
+      fingers: "131214",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'aa9aaa',
-      fingers: '221334',
-      barres: 10
-    }
-  ]
-};
+      frets: "aa9aaa",
+      fingers: "221334",
+      barres: 10,
+    },
+  ],
+}

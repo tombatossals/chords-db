@@ -1,26 +1,26 @@
 export default {
-  key: 'C#',
-  suffix: 'maj7b5',
+  key: "C#",
+  suffix: "maj7b5",
   positions: [
     {
-      frets: 'x43563',
-      fingers: '021341',
+      frets: "x43563",
+      fingers: "021341",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x4556x',
-      fingers: '012340'
+      frets: "x4556x",
+      fingers: "012340",
     },
     {
-      frets: '98aa88',
-      fingers: '213411',
+      frets: "98aa88",
+      fingers: "213411",
       barres: 8,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xxbcdd',
-      fingers: '001234'
-    }
-  ]
-};
+      frets: "xxbcdd",
+      fingers: "001234",
+    },
+  ],
+}

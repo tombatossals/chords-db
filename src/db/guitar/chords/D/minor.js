@@ -1,26 +1,26 @@
 export default {
-  key: 'D',
-  suffix: 'minor',
+  key: "D",
+  suffix: "minor",
   positions: [
     {
-      frets: 'xx0231',
-      fingers: '000231'
+      frets: "xx0231",
+      fingers: "000231",
     },
     {
-      frets: '557765',
-      fingers: '113421',
+      frets: "557765",
+      fingers: "113421",
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x8776x',
-      fingers: '042310'
+      frets: "x8776x",
+      fingers: "042310",
     },
     {
-      frets: 'accaaa',
-      fingers: '134111',
+      frets: "accaaa",
+      fingers: "134111",
       barres: 10,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

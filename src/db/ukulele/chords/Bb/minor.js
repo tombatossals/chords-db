@@ -1,26 +1,26 @@
 export default {
-  key: 'Bb',
-  suffix: 'minor',
+  key: "Bb",
+  suffix: "minor",
   positions: [
     {
-      frets: '3111',
-      fingers: '3111',
+      frets: "3111",
+      fingers: "3111",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: '3114',
-      fingers: '3114',
+      frets: "3114",
+      fingers: "3114",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: '3564',
-      fingers: '1342'
+      frets: "3564",
+      fingers: "1342",
     },
     {
-      frets: '6564',
-      fingers: '3241'
-    }
-  ]
-};
+      frets: "6564",
+      fingers: "3241",
+    },
+  ],
+}

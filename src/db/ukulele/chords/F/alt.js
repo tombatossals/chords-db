@@ -1,20 +1,20 @@
 export default {
-  key: 'F',
-  suffix: 'alt',
+  key: "F",
+  suffix: "alt",
   positions: [
     {
-      frets: '2552',
-      fingers: '1341',
+      frets: "2552",
+      fingers: "1341",
       barres: 2,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'a978',
-      fingers: '4312'
+      frets: "a978",
+      fingers: "4312",
     },
     {
-      frets: 'abdc',
-      fingers: '1243'
-    }
-  ]
-};
+      frets: "abdc",
+      fingers: "1243",
+    },
+  ],
+}

@@ -1,30 +1,30 @@
 export default {
-  key: 'C',
-  suffix: '7sus4',
+  key: "C",
+  suffix: "7sus4",
   positions: [
     {
-      frets: 'x33311',
-      fingers: '023411',
+      frets: "x33311",
+      fingers: "023411",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: '335363',
-      fingers: '113141',
+      frets: "335363",
+      fingers: "113141",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xx5566',
-      fingers: '001123',
+      frets: "xx5566",
+      fingers: "001123",
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
-      frets: '8a8a88',
-      fingers: '131411',
+      frets: "8a8a88",
+      fingers: "131411",
       barres: 8,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

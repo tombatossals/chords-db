@@ -1,28 +1,28 @@
 export default {
-  key: 'Ab',
-  suffix: '7b9',
+  key: "Ab",
+  suffix: "7b9",
   positions: [
     {
-      frets: 'x01112',
-      fingers: '001112',
-      barres: 1
+      frets: "x01112",
+      fingers: "001112",
+      barres: 1,
     },
     {
-      frets: 'xx4545',
-      fingers: '101213',
-      barres: 4
+      frets: "xx4545",
+      fingers: "101213",
+      barres: 4,
     },
     {
-      frets: 'xx6575',
-      fingers: '002131',
+      frets: "xx6575",
+      fingers: "002131",
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xbabab',
-      fingers: '021314',
+      frets: "xbabab",
+      fingers: "021314",
       barres: 10,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

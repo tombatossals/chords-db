@@ -1,30 +1,30 @@
 export default {
-  key: 'F',
-  suffix: 'mmaj11',
+  key: "F",
+  suffix: "mmaj11",
   positions: [
     {
-      frets: '112113',
-      fingers: '112114',
+      frets: "112113",
+      fingers: "112114",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x33354',
-      fingers: '011132',
+      frets: "x33354",
+      fingers: "011132",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x86986',
-      fingers: '021431',
+      frets: "x86986",
+      fingers: "021431",
       barres: 6,
-      capo: true
+      capo: true,
     },
     {
-      frets: '888998',
-      fingers: '111231',
+      frets: "888998",
+      fingers: "111231",
       barres: 8,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

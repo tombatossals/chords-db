@@ -1,14 +1,14 @@
 export default {
-  key: 'E',
-  suffix: 'maj11',
+  key: "E",
+  suffix: "maj11",
   positions: [
     {
-      frets: '1320',
-      fingers: '1320'
+      frets: "1320",
+      fingers: "1320",
     },
     {
-      frets: 'b9bb',
-      fingers: '2134'
-    }
-  ]
-};
+      frets: "b9bb",
+      fingers: "2134",
+    },
+  ],
+}

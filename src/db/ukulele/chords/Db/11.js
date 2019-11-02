@@ -1,10 +1,10 @@
 export default {
-  key: 'Db',
-  suffix: '11',
+  key: "Db",
+  suffix: "11",
   positions: [
     {
-      frets: '8678',
-      fingers: '3124'
-    }
-  ]
-};
+      frets: "8678",
+      fingers: "3124",
+    },
+  ],
+}

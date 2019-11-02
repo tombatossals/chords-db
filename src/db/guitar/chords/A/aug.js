@@ -1,28 +1,28 @@
 export default {
-  key: 'A',
-  suffix: 'aug',
+  key: "A",
+  suffix: "aug",
   positions: [
     {
-      frets: 'x03221',
-      fingers: '004231'
+      frets: "x03221",
+      fingers: "004231",
     },
     {
-      frets: '54322x',
-      fingers: '432110',
+      frets: "54322x",
+      fingers: "432110",
       barres: 2,
-      capo: true
+      capo: true,
     },
     {
-      frets: '5x7665',
-      fingers: '104231',
+      frets: "5x7665",
+      fingers: "104231",
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xcbaax',
-      fingers: '032110',
+      frets: "xcbaax",
+      fingers: "032110",
       barres: 10,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

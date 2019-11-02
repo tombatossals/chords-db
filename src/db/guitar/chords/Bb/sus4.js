@@ -1,30 +1,30 @@
 export default {
-  key: 'Bb',
-  suffix: 'sus4',
+  key: "Bb",
+  suffix: "sus4",
   positions: [
     {
-      frets: 'x13341',
-      fingers: '012341',
+      frets: "x13341",
+      fingers: "012341",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xx3346',
-      fingers: '001124',
+      frets: "xx3346",
+      fingers: "001124",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: '688866',
-      fingers: '133311',
+      frets: "688866",
+      fingers: "133311",
       barres: 6,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x88abb',
-      fingers: '011234',
+      frets: "x88abb",
+      fingers: "011234",
       barres: 8,
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}

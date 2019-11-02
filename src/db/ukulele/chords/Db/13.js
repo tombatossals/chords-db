@@ -1,24 +1,24 @@
 export default {
-  key: 'Db',
-  suffix: '13',
+  key: "Db",
+  suffix: "13",
   positions: [
     {
-      frets: '3312',
-      fingers: '3412'
+      frets: "3312",
+      fingers: "3412",
     },
     {
-      frets: '4311',
-      fingers: '4311',
+      frets: "4311",
+      fingers: "4311",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: '4566',
-      fingers: '1234'
+      frets: "4566",
+      fingers: "1234",
     },
     {
-      frets: '8a78',
-      fingers: '2413'
-    }
-  ]
-};
+      frets: "8a78",
+      fingers: "2413",
+    },
+  ],
+}

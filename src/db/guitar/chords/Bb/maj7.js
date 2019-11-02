@@ -1,30 +1,30 @@
 export default {
-  key: 'Bb',
-  suffix: 'maj7',
+  key: "Bb",
+  suffix: "maj7",
   positions: [
     {
-      frets: 'x13231',
-      fingers: '013241',
+      frets: "x13231",
+      fingers: "013241",
       barres: 1,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'xx3335',
-      fingers: '001114',
+      frets: "xx3335",
+      fingers: "001114",
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
-      frets: '687766',
-      fingers: '142311',
+      frets: "687766",
+      fingers: "142311",
       barres: 6,
-      capo: true
+      capo: true,
     },
     {
-      frets: 'x88aaa',
-      fingers: '011333',
+      frets: "x88aaa",
+      fingers: "011333",
       barres: [8, 10],
-      capo: true
-    }
-  ]
-};
+      capo: true,
+    },
+  ],
+}
