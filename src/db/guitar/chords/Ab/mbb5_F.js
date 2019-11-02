@@ -1,0 +1,5 @@
+export default {
+  key: "Ab",
+  suffix: "mbb5/F",
+  positions: [{ frets: "12x424", fingers: "120344" }],
+}

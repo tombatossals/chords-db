@@ -1,27 +1,37 @@
-import C from "./C/index"
-import Csharp from "./C#/index"
-import D from "./D/index"
-import Eb from "./Eb/index"
-import E from "./E/index"
-import F from "./F/index"
-import Fsharp from "./F#/index"
-import G from "./G/index"
-import A from "./A/index"
-import Ab from "./Ab/index"
-import B from "./B/index"
-import Bb from "./Bb/index"
+import * as A from "./A"
+import * as Asharp from "./A#"
+import * as Ab from "./Ab"
+import * as B from "./B"
+import * as Bb from "./Bb"
+import * as C from "./C"
+import * as Csharp from "./C#"
+import * as D from "./D"
+import * as Dsharp from "./D#"
+import * as Db from "./Db"
+import * as E from "./E"
+import * as Eb from "./Eb"
+import * as F from "./F"
+import * as Fsharp from "./F#"
+import * as G from "./G"
+import * as Gsharp from "./G#"
+import * as Gb from "./Gb"
 
 export default {
+  A,
+  Asharp,
+  Ab,
+  B,
+  Bb,
   C,
   Csharp,
   D,
-  Eb,
+  Dsharp,
+  Db,
   E,
+  Eb,
   F,
   Fsharp,
   G,
-  Ab,
-  A,
-  Bb,
-  B,
+  Gsharp,
+  Gb,
 }

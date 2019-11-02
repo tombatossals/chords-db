@@ -1,1 +1,15 @@
-export default ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
+export default [
+  "C",
+  "C#",
+  "D",
+  "Eb",
+  "E",
+  "F",
+  "F#",
+  "G",
+  "Gb",
+  "Ab",
+  "A",
+  "Bb",
+  "B",
+]

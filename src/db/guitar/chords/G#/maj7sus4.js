@@ -1,0 +1,5 @@
+export default {
+  key: "G#",
+  suffix: "maj7sus4",
+  positions: [{ frets: "445644", fingers: "112311" }],
+}
