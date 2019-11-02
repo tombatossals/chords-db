@@ -30,16 +30,6 @@ We can define too the *fingers* information for easy reading of the chord.
 If the chord need to barre some string, we will define if in the *barre* field. If
 you want the barre be represented with capo, you can define the "capo" property too.
 
-## How to use
-
-All this information is packed in a JSON library, that you can use to render visually
-with a utility able to parse this information. For example this project below is capable
-of reading any chord in the library and render it as SVG.
-
-[react-chords](https://tombatossals.github.io/react-chords)
-
-
-
 ## How to build/contribute
 
 This project is using *yarn* as package manager, so all the basic command related to 
@@ -55,3 +45,11 @@ yarn test
 ```
 Make some testing of the new added chords. Very useful to detect basic mistakes.
 
+## How to use
+
+All this information is packed in a JSON library, that you can use to render visually
+with a utility able to parse this information.
+
+You can take a look of the current state of the database with this SVG rendering tool:
+
+[![chords-db](https://raw.githubusercontent.com/tombatossals/react-chords/webpage/src/images/react-chords.png)](https://tombatossals.github.io/react-chords)
