@@ -38,18 +38,18 @@ import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
 import madd9 from './madd9';
-import scsharp from './sc#';
-import msc from './msc';
-import mse from './mse';
-import msf from './msf';
-import msfsharp from './msf#';
-import msg from './msg';
-import msgsharp from './msg#';
-import se from './se';
-import sf from './sf';
-import sfsharp from './sf#';
-import sg from './sg';
-import sgsharp from './sg#';
+import _Csharp from './_C#';
+import m_C from './m_C';
+import m_E from './m_E';
+import m_F from './m_F';
+import m_Fsharp from './m_F#';
+import m_G from './m_G';
+import m_Gsharp from './m_G#';
+import _E from './_E';
+import _F from './_F';
+import _Fsharp from './_F#';
+import _G from './_G';
+import _Gsharp from './_G#';
 
 export default [
   major,
@@ -92,16 +92,16 @@ export default [
   mmaj11,
   add9,
   madd9,
-  scsharp,
-  se,
-  sf,
-  sfsharp,
-  sg,
-  sgsharp,
-  msc,
-  mse,
-  msf,
-  msfsharp,
-  msg,
-  msgsharp
+  _Csharp,
+  _E,
+  _F,
+  _Fsharp,
+  _G,
+  _Gsharp,
+  m_C,
+  m_E,
+  m_F,
+  m_Fsharp,
+  m_G,
+  m_Gsharp
 ];

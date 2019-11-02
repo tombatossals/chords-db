@@ -1,4 +1,6 @@
-## 0.4.4 (Oct 27, 2019)
+## 0.5.1 (Nov 2, 2019)
+* Renamed the slash chords
+## 0.5.0 (Oct 27, 2019)
 * Added a lot of new guitar chords thanks to @szaza
 * Fixed some typos
 ## 0.4.3 (Jul 20, 2018)
