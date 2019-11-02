@@ -7,6 +7,7 @@
     "test": "jest src",
     "stdout": "babel-node src/generate",
     "build": "babel-node src/generate json",
+    "import": "babel-node src/import",
     "precommit": "lint-staged",
     "prepublish": "npm run build",
     "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
