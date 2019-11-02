@@ -39,9 +39,9 @@ import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
 import madd9 from './madd9';
-import se from './se';
-import sf from './sf';
-import sg from './sg';
+import _E from './_E';
+import _F from './_F';
+import _G from './_G';
 
 export default [
   major,
@@ -85,7 +85,7 @@ export default [
   mmaj11,
   add9,
   madd9,
-  se,
-  sf,
-  sg
+  _E,
+  _F,
+  _G
 ];

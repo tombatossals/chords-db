@@ -38,13 +38,13 @@ import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
 import madd9 from './madd9';
-import sc from './sc';
-import sd from './sd';
-import sdsarp from './sd#';
-import se from './se';
-import sg from './sg';
-import sa from './sa';
-import msc from './msc';
+import _C from './_C';
+import _D from './_D';
+import _Dsharp from './_D#';
+import _E from './_E';
+import _G from './_G';
+import _A from './_A';
+import m_C from './m_C';
 
 export default [
   major,
@@ -87,11 +87,11 @@ export default [
   mmaj11,
   add9,
   madd9,
-  sc,
-  sd,
-  sdsarp,
-  se,
-  sg,
-  sa,
-  msc
+  _C,
+  _D,
+  _Dsharp,
+  _E,
+  _G,
+  _A,
+  m_C
 ];
