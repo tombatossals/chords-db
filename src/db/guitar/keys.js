@@ -8,6 +8,7 @@ export default [
   "F",
   "F#",
   "G",
+  "G#",
   "Gb",
   "Ab",
   "A",
