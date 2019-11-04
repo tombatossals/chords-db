@@ -1,5 +1,6 @@
 export default {
   key: "A",
   suffix: "m9/C#",
-  positions: [{ frets: "9aaecc", fingers: "124034" }],
+  barres: 7,
+  positions: [{ frets: "977997", fingers: "211341" }],
 }

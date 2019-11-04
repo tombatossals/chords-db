@@ -2,6 +2,7 @@ export default [
   "C",
   "C#",
   "D",
+  "D#",
   "Eb",
   "E",
   "F",
@@ -10,6 +11,7 @@ export default [
   "Gb",
   "Ab",
   "A",
+  "A#",
   "Bb",
   "B",
 ]
