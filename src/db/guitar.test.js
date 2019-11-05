@@ -1,11 +1,12 @@
 /* global it, describe, expect */
 
-import guitar from "./guitar"
 import { strChord2array, chord2midi, processString } from "../tools"
 
+const guitar = require("../../lib/guitar.json")
 describe("Guitar Chords", () => {
   describe("Strings", () => {
-    it("Should have 6 strings", () => expect(guitar.main.strings).toEqual(6))
+    it.only("Should have 6 strings", () =>
+      expect(guitar.main.strings).toEqual(6))
   })
 
   describe("Types", () => {

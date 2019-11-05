@@ -60,9 +60,16 @@ const processChord = (suffixes, tuning) =>
 
 const processChords = (chords, tuning) =>
   Object.assign(
-    ...Object.keys(chords).map(chord =>
-      Object.assign({}, { [chord]: processChord(chords[chord], tuning) })
-    )
+    ...Object.keys(chords)
+      .map(k => k.replace("#", "sharp"))
+      .map(key =>
+        Object.assign(
+          {},
+          {
+            [key]: processChord(Object.values(chords[key]), tuning),
+          }
+        )
+      )
   )
 
 export const generate = (instrument, tuning = "standard") =>

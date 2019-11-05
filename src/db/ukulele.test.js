@@ -24,7 +24,9 @@ describe("ukulele Chords", () => {
 
   describe(`Test Cmajor midi notes`, () => {
     it(`Should match [ 67, 60, 64, 72 ]`, () => {
-      const Cmajor = ukulele.chords.C.find(chord => chord.suffix === "major")
+      const Cmajor = Object.values(ukulele.chords.C).find(
+        chord => chord.suffix === "major"
+      )
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
         ukulele.tunings["standard"]
@@ -36,7 +38,7 @@ describe("ukulele Chords", () => {
 
   Object.keys(ukulele.chords).map(key =>
     describe(`Key ${key} chords`, () => {
-      const chords = ukulele.chords[key]
+      const chords = Object.values(ukulele.chords[key])
 
       it(`Should not have duplicated suffixes`, () => {
         let seen = new Set()

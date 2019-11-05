@@ -27,7 +27,7 @@ const getNumberOfPositions = suffixes =>
 
 const getNumberOfChords = chords =>
   Object.keys(chords).reduce(
-    (sum, key) => sum + getNumberOfPositions(chords[key]),
+    (sum, key) => sum + getNumberOfPositions(Object.values(chords[key])),
     0
   )
 

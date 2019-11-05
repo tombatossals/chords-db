@@ -3,14 +3,12 @@ import tunings from "./tunings"
 import keys from "./keys"
 import ch from "./chords"
 
-const chords = keys.reduce((arr, key) => {
+const chords = keys.reduce((arr, k) => {
+  const key = k.replace("#", "sharp")
   arr[key] = []
+  Object.values(ch[key]).map(chord => arr[key].push(chord))
   return arr
 }, {})
-
-Object.keys(ch).map(key =>
-  Object.values(ch[key]).map(chord => chords[chord.key].push(chord))
-)
 
 const suffixes = [
   ...new Set(
