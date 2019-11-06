@@ -1,5 +1,0 @@
-export default {
-  key: "Gb",
-  suffix: "maj7sus4#5/C#",
-  positions: [{ frets: "989777", fingers: "324111" }],
-}

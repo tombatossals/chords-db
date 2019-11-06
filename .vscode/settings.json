@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        ".cache": true,
+        ".vscode": true,
+        "public/": true,
+        "yarn.lock": true
+    }
+}

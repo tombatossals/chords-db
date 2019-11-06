@@ -1,5 +1,0 @@
-export default {
-  key: "A",
-  suffix: "m11/E",
-  positions: [{ frets: "032233", fingers: "021434" }],
-}
