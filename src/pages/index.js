@@ -1,6 +1,6 @@
-import React from "react"
-import Chord from "@tombatossals/react-chords/lib/Chord"
-import { Link } from "gatsby"
+import React from "react";
+import Chord from "@tombatossals/react-chords/lib/Chord";
+import { Link } from "gatsby";
 
 const IndexPage = ({ chords, instrument, lite, svg }) => (
   <>
@@ -9,7 +9,7 @@ const IndexPage = ({ chords, instrument, lite, svg }) => (
         return chord.positions.map((position, version) =>
           svg ? (
             <div>
-              <p className="text-lg text-center mb-0">
+              <p className="text-lg text-center mb-0 m-0">
                 {chord.key}
                 <span className="text-xs">{chord.suffix}</span>{" "}
                 {chord.positions.length > 1 && (
@@ -59,7 +59,12 @@ const IndexPage = ({ chords, instrument, lite, svg }) => (
             >
               <p className="text-lg text-center">
                 {chord.key}
-                <span className="text-xs">{chord.suffix}</span>{" "}
+                <span
+                  className="text-xs"
+                  style={{ fontSize: chord.suffix.length > 8 ? ".5rem" : "" }}
+                >
+                  {chord.suffix}
+                </span>{" "}
                 {chord.positions.length > 1 && (
                   <span className="font-bold text-sm">(v{version + 1})</span>
                 )}
@@ -67,9 +72,9 @@ const IndexPage = ({ chords, instrument, lite, svg }) => (
               <Chord chord={position} instrument={instrument} lite={lite} />
             </Link>
           )
-        )
+        );
       })}
   </>
-)
+);
 
-export default IndexPage
+export default IndexPage;

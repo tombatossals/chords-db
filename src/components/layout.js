@@ -56,7 +56,7 @@ const Layout = ({ children, pageContext }) => {
 
   const instruments = { guitar, ukulele }
   const i = pageContext.instrument ? pageContext.instrument : "guitar"
-  const key = pageContext.key ? pageContext.key.replace("#", "sharp") : ""
+  const key = pageContext.key ? pageContext.key.replace("#", "sharp") : "C"
   const suffix = pageContext.suffix
     ? pageContext.suffix.replace("#", "sharp")
     : ""
@@ -71,7 +71,7 @@ const Layout = ({ children, pageContext }) => {
     tunings: instruments[i].tunings,
   })
 
-  const lite = !key && !suffix
+  const lite = !suffix
   const svg = pageContext.key && pageContext.suffix
   return (
     <div className="container mx-auto text-gray-700">
