@@ -56,15 +56,15 @@ const Layout = ({ children, pageContext }) => {
 
   const instruments = { guitar, ukulele }
   const i = pageContext.instrument ? pageContext.instrument : "guitar"
-  const key = pageContext.key ? pageContext.key.replace("#", "sharp") : "C"
+  const key = pageContext.key ? pageContext.key.replace(/#/g, "sharp") : "C"
   const suffix = pageContext.suffix
-    ? pageContext.suffix.replace("#", "sharp")
+    ? pageContext.suffix.replace(/#/g, "sharp")
     : ""
 
   const chords = get_chords(
     instruments[i].chords,
     key,
-    suffix.replace("sharp", "#")
+    suffix.replace(/sharp/g, "#")
   )
 
   const instrument = Object.assign(instruments[i].main, {

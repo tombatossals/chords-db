@@ -59,7 +59,7 @@ const Header = ({ siteTitle, instrument }) => (
             </li>
           </ul>
           <div className="max-w-sm mx-auto flex p-1 pb-0  hover:bg-gray-100 rounded-lg border shadow-xs">
-            <a href="http://github.com/tombatossals/react-chords">
+            <a href="http://github.com/tombatossals/chords-db">
               <Img
                 style={{ margin: 0 }}
                 fixed={data.file.childImageSharp.fixed}

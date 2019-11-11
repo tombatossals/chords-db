@@ -28,7 +28,7 @@ exports.createPages = async ({ actions }) => {
     })
 
     instruments[instrument].keys
-      .map(k => k.replace("#", "sharp"))
+      .map(k => k.replace(/#/g, "sharp"))
       .forEach(key => {
         createPage({
           path: `/${instrument}/${key}`,
@@ -42,8 +42,8 @@ exports.createPages = async ({ actions }) => {
         instruments[instrument].suffixes.forEach(suffix =>
           createPage({
             path: `/${instrument}/${key}/${suffix
-              .replace("#", "sharp")
-              .replace("/", "_")}`,
+              .replace(/#/g, "sharp")
+              .replace(/\//g, "_")}`,
             component: instrumentTpl,
             context: {
               instrument,

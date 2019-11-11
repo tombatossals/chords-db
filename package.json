@@ -45,6 +45,7 @@
     "svg": "babel-node src/tools/generate-svg-chords",
     "serve": "gatsby serve",
     "deploy": "gatsby build --prefix-paths && touch public/.nojekyll && gh-pages -d public",
+    "gh-pages": "gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

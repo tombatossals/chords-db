@@ -18,8 +18,8 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const createSVGChordAndWriteFile = async (chord, v, instrument) =>
   new Promise(async resolve => {
-    const key = chord.key.replace("#", "sharp");
-    const suffix = chord.suffix.replace("#", "sharp").replace("/", "_");
+    const key = chord.key.replace(/#/g, "sharp");
+    const suffix = chord.suffix.replace(/#/g, "sharp").replace(/\//g, "_");
     const dirname = path.join(
       basedir,
       instrument.main.name.toLowerCase(),

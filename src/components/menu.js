@@ -9,14 +9,14 @@ const Menu = ({ instrument, keys, selectedKey }) => (
       <li key={key} className="mr-3">
         <Link
           className={
-            (key === selectedKey.replace("sharp", "#") ||
+            (key === selectedKey.replace(/sharp/g, "#") ||
             (key === "All" && selectedKey === "")
               ? `bg-blue-500 text-white hover:bg-blue-500 hover:border-blue-200 `
               : `border-white text-blue-500 hover:border-gray-200 hover:bg-gray-200 `) +
             `inline-block border font-bold rounded py-1 px-3`
           }
           to={
-            key === "All" ? `/${instrument}` : `/${instrument}/${key.replace("#", "sharp")}`
+            key === "All" ? `/${instrument}` : `/${instrument}/${key.replace(/#/g, "sharp")}`
           }
         >
           {key}

@@ -22,28 +22,28 @@ const IndexPage = ({ chords, instrument, lite, svg }) => (
                 Download:{" "}
                 <a
                   className="text-xs"
-                  href={`/react-chords/media/${
+                  href={`/chords-db/media/${
                     instrument.name
                   }/chords/${chord.key.replace(
                     "#",
                     "sharp"
                   )}/${chord.suffix
-                    .replace("#", "sharp")
-                    .replace("/", "_")}/${version + 1}.svg`}
+                    .replace(/#/g, "sharp")
+                    .replace(/\//g, "_")}/${version + 1}.svg`}
                 >
                   SVG
                 </a>
                 {"/"}
                 <a
                   className="text-xs"
-                  href={`/react-chords/media/${
+                  href={`/chords-db/media/${
                     instrument.name
                   }/chords/${chord.key.replace(
-                    "#",
+                    /#/g,
                     "sharp"
                   )}/${chord.suffix
-                    .replace("#", "sharp")
-                    .replace("/", "_")}/${version + 1}.png`}
+                    .replace(/#/g, "sharp")
+                    .replace(/\//g, "_")}/${version + 1}.png`}
                 >
                   PNG
                 </a>
@@ -55,7 +55,7 @@ const IndexPage = ({ chords, instrument, lite, svg }) => (
               to={`/${instrument.name}/${chord.key.replace(
                 "#",
                 "sharp"
-              )}/${chord.suffix.replace("#", "sharp").replace("/", "_")}`}
+              )}/${chord.suffix.replace(/#/g, "sharp").replace(/\//g, "_")}`}
             >
               <p className="text-lg text-center">
                 {chord.key}
