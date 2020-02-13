@@ -3,15 +3,15 @@ export default {
   suffix: 'major',
   positions: [
     {
-      frets: '43111x',
-      fingers: '321110',
-      barres: 1,
-      capo: true
-    },
-    {
       frets: '466544',
       fingers: '134211',
       barres: 4,
+      capo: true
+    },
+    {
+      frets: '43111x',
+      fingers: '321110',
+      barres: 1,
       capo: true
     },
     {
