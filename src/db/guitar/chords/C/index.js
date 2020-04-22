@@ -11,7 +11,7 @@ import _6 from './6';
 import _69 from './69';
 import _7 from './7';
 import _7b5 from './7b5';
-import _7sg from './7sg';
+import _7_G from './7_G';
 import aug7 from './aug7';
 import _9 from './9';
 import _9b5 from './9b5';
@@ -57,7 +57,7 @@ export default [
   _69,
   _7,
   _7b5,
-  _7sg,
+  _7_G,
   aug7,
   _9,
   _9b5,
