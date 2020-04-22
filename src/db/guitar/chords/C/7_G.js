@@ -1,6 +1,6 @@
 export default {
     key: 'C',
-    suffix: '7_G',
+    suffix: '7/G',
     positions: [
         {
             frets: '3323xx',
