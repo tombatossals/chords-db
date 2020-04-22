@@ -6,7 +6,7 @@ export default [
   'sus2',
   'sus4',
   '7sus4',
-  '7sg',
+  '7/G',
   'alt',
   'aug',
   '6',
