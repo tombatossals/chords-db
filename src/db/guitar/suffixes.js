@@ -5,6 +5,7 @@ export default [
   'dim7',
   'sus2',
   'sus4',
+  'sus2sus4',
   '7sus4',
   '7/G',
   'alt',

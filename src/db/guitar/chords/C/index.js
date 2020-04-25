@@ -4,6 +4,7 @@ import dim from './dim';
 import dim7 from './dim7';
 import sus2 from './sus2';
 import sus4 from './sus4';
+import sus2sus4 from './sus2sus4';
 import c7sus4 from './7sus4';
 import alt from './alt';
 import aug from './aug';
@@ -51,6 +52,7 @@ export default [
   dim7,
   sus2,
   sus4,
+  sus2sus4,
   c7sus4,
   alt,
   aug,
