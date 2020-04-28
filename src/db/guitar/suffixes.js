@@ -9,6 +9,7 @@ export default [
   '7/G',
   'alt',
   'aug',
+  '5',
   '6',
   '69',
   '7',
