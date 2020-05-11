@@ -3,6 +3,10 @@ export default {
   suffix: 'm7',
   positions: [
     {
+      frets: '3x333x',
+      fingers: '203330'
+    },
+    {
       frets: '353333',
       fingers: '131111',
       barres: 3,
