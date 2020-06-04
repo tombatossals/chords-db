@@ -58,10 +58,18 @@ const processChord = (suffixes, tuning) =>
     Object.assign(suffix, processPositions(suffix.positions, tuning))
   );
 
+// Wywrota custom format
+
+const processChordWywrota = (suffixes, tuning) =>
+  suffixes.reduce((map, suffix) => {
+    map[suffix.suffix] = suffix.positions;
+    return map;
+  }, {});
+
 const processChords = (chords, tuning) =>
   Object.assign(
     ...Object.keys(chords).map(chord =>
-      Object.assign({}, { [chord]: processChord(chords[chord], tuning) })
+      Object.assign({}, { [chord]: processChordWywrota(chords[chord], tuning) })
     )
   );
 

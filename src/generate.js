@@ -10,7 +10,7 @@ const createDirIfNeeded = () =>
 const generateJSON = instrument =>
   fs.writeFileSync(
     path.join(__dirname, '..', 'lib', `${instrument}.json`),
-    JSON.stringify(generate(db[instrument]))
+    JSON.stringify(generate(db[instrument]), undefined, 4)
   );
 
 const prettyObjectToJSON = obj => JSON.stringify(obj, null, 4);
@@ -41,7 +41,9 @@ const generateIndex = db => {
             numberOfChords: getNumberOfChords(db[instrument].chords)
           })
         }))
-      )
+      ),
+      undefined,
+      4
     )
   );
   return true;
