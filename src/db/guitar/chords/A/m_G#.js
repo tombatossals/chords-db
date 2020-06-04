@@ -3,11 +3,6 @@ export default {
   suffix: 'm/G#',
   positions: [
     {
-      frets: 'xx4555',
-      fingers: '002111',
-      barres: 5
-    },
-    {
       frets: '432555',
       fingers: '321444',
       barres: 5
