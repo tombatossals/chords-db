@@ -59,12 +59,14 @@ const processChord = (suffixes, tuning) =>
   );
 
 // Wywrota custom format
-
 const processChordWywrota = (suffixes, tuning) =>
   suffixes.reduce((map, suffix) => {
     map[suffix.suffix] = suffix.positions;
     return map;
   }, {});
+
+// end custom format
+
 
 const processChords = (chords, tuning) =>
   Object.assign(

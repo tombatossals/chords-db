@@ -10,7 +10,7 @@ const createDirIfNeeded = () =>
 const generateJSON = instrument =>
   fs.writeFileSync(
     path.join(__dirname, '..', 'lib', `${instrument}.json`),
-    JSON.stringify(generate(db[instrument]), undefined, 4)
+    JSON.stringify(generate(db[instrument])) // add for pretty print: , undefined, 4
   );
 
 const prettyObjectToJSON = obj => JSON.stringify(obj, null, 4);
