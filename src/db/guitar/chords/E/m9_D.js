@@ -6,25 +6,25 @@ export default {
   {
     "frets": "x52432",
     "fingers": "041321",
-    "barres": "2",
+    "barres": 2,
     "capo": true
   },
   {
     "frets": "a79777",
     "fingers": "413111",
-    "barres": "1",
+    "barres": 7,
     "capo": true
   },
   {
     "frets": "a79977",
     "fingers": "412311",
-    "barres": "1",
+    "barres": 7,
     "capo": true
   },
   {
     "frets": "a7977x",
     "fingers": "413110",
-    "barres": "1",
+    "barres": 7,
     "capo": true
   }
 ]

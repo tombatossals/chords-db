@@ -9,7 +9,8 @@ export default {
   },
   {
     "frets": "300232",
-    "fingers": "200131"
+    "fingers": "200131",
+    "barres": 2
   },
   {
     "frets": "304032",
@@ -17,7 +18,8 @@ export default {
   },
   {
     "frets": "304232",
-    "fingers": "204131"
+    "fingers": "204131",
+    "barres": 2
   }
 ]
 };

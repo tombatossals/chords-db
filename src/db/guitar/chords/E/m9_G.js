@@ -6,7 +6,7 @@ export default {
   {
     "frets": "322432",
     "fingers": "211431",
-    "barres": "1",
+    "barres": 2,
     "capo": true
   },
   {
@@ -16,7 +16,7 @@ export default {
   {
     "frets": "3x2432",
     "fingers": "201431",
-    "barres": "2",
+    "barres": 2,
     "capo": true
   }
 ]
