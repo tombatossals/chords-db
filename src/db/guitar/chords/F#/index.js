@@ -45,6 +45,7 @@ import m9_E from "./m9_E";
 import m9_A from "./m9_A";
 import _F from "./_F";
 import m_E from "./m_E";
+import m_Eb from "./m_Eb";
 
 export default [
   major,
@@ -94,4 +95,5 @@ export default [
   m9_A,
   _F,
   m_E,
+  m_Eb,
 ];
