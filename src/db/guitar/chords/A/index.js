@@ -55,7 +55,6 @@ import m_Eb from "./m_Eb";
 import m_F from "./m_F";
 import m_Fsharp from "./m_F#";
 import m_G from "./m_G";
-import m_Gsharp from "./m_G#";
 import _Ab from "./_Ab";
 import _B from "./_B";
 import _Bb from "./_Bb";
@@ -67,7 +66,6 @@ import _Eb from "./_Eb";
 import _F from "./_F";
 import _Fsharp from "./_F#";
 import _G from "./_G";
-import _Gsharp from "./_G#";
 
 export default [
   major,
@@ -127,7 +125,6 @@ export default [
   m_F,
   m_Fsharp,
   m_G,
-  m_Gsharp,
   _Ab,
   _B,
   _Bb,
@@ -139,5 +136,4 @@ export default [
   _F,
   _Fsharp,
   _G,
-  _Gsharp,
 ];
