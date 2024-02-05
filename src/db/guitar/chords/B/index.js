@@ -43,6 +43,7 @@ import add9 from "./add9";
 import madd9 from "./madd9";
 import m9_A from "./m9_A";
 import m9_D from "./m9_D";
+import _Bb from "./_Bb";
 
 export default [
   major,
@@ -90,4 +91,5 @@ export default [
   madd9,
   m9_A,
   m9_D,
+  _Bb,
 ];
