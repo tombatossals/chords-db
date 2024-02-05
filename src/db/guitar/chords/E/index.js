@@ -59,6 +59,7 @@ import m_G from "./m_G";
 import m_Gsharp from "./m_G#";
 import m9_D from "./m9_D";
 import m9_G from "./m9_G";
+import _Eb from "./_Eb";
 
 export default [
   major,
@@ -122,4 +123,5 @@ export default [
   m_Gsharp,
   m9_D,
   m9_G,
+  _Eb,
 ];

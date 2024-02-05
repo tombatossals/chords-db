@@ -48,6 +48,7 @@ import _B from "./_B";
 import _C from "./_C";
 import m9_C from "./m9_C";
 import m9_F from "./m9_F";
+import _Csharp from "./_C#";
 
 export default [
   major,
@@ -100,4 +101,5 @@ export default [
   _C,
   m9_C,
   m9_F,
+  _Csharp,
 ];
