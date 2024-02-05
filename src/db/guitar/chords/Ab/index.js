@@ -41,6 +41,7 @@ import mmaj11 from "./mmaj11";
 import add9 from "./add9";
 import madd9 from "./madd9";
 import m9_Fsharp from "./m9_F#";
+import m9_B from "./m9_B";
 
 export default [
   major,
@@ -86,4 +87,5 @@ export default [
   add9,
   madd9,
   m9_Fsharp,
+  m9_B,
 ];
