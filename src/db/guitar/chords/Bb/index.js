@@ -43,9 +43,31 @@ import add9 from "./add9";
 import madd9 from "./madd9";
 import m9_Ab from "./m9_Ab";
 import m9_Csharp from "./m9_C#";
-import _A from "./_A";
+
 import m_Ab from "./m_Ab";
+import m_B from "./m_B";
+import m_Bb from "./m_Bb";
+import m_C from "./m_C";
+import m_Csharp from "./m_C#";
+import m_D from "./m_D";
+import m_E from "./m_E";
+import m_Eb from "./m_Eb";
+import m_F from "./m_F";
+import m_Fsharp from "./m_F#";
 import m_G from "./m_G";
+import m_Gsharp from "./m_G#";
+import _Ab from "./_Ab";
+import _B from "./_B";
+import _Bb from "./_Bb";
+import _C from "./_C";
+import _Csharp from "./_C#";
+import _D from "./_D";
+import _E from "./_E";
+import _Eb from "./_Eb";
+import _F from "./_F";
+import _Fsharp from "./_F#";
+import _G from "./_G";
+import _Gsharp from "./_G#";
 
 export default [
   major,
@@ -93,7 +115,29 @@ export default [
   madd9,
   m9_Ab,
   m9_Csharp,
-  _A,
+
   m_Ab,
+  m_B,
+  m_Bb,
+  m_C,
+  m_Csharp,
+  m_D,
+  m_E,
+  m_Eb,
+  m_F,
+  m_Fsharp,
   m_G,
+  m_Gsharp,
+  _Ab,
+  _B,
+  _Bb,
+  _C,
+  _Csharp,
+  _D,
+  _E,
+  _Eb,
+  _F,
+  _Fsharp,
+  _G,
+  _Gsharp,
 ];
