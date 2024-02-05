@@ -1,20 +1,25 @@
+
 export default {
   key: 'D',
   suffix: '/Bb',
   positions: [
-    {
-      frets: 'x10232',
-      fingers: '010243'
-    },
-    {
-      frets: 'x14232',
-      fingers: '014232',
-      barres: 2
-    },
-    {
-      frets: '65777x',
-      fingers: '213330',
-      barres: 7
-    }
-  ]
+  {
+    "frets": "x10232",
+    "fingers": "010243"
+  },
+  {
+    "frets": "xx8775",
+    "fingers": "004231"
+  },
+  {
+    "frets": "xx8baa",
+    "fingers": "001423"
+  },
+  {
+    "frets": "xdcbaa",
+    "fingers": "043211",
+    "barres": 10,
+    "capo": true
+  }
+]
 };
