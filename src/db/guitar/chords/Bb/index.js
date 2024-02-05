@@ -44,6 +44,7 @@ import madd9 from "./madd9";
 import m9_Ab from "./m9_Ab";
 import m9_Csharp from "./m9_C#";
 import _A from "./_A";
+import m_Ab from "./m_Ab";
 
 export default [
   major,
@@ -92,4 +93,5 @@ export default [
   m9_Ab,
   m9_Csharp,
   _A,
+  m_Ab,
 ];
