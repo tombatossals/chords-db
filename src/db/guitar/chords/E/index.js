@@ -57,6 +57,7 @@ import m_F from "./m_F";
 import m_Fsharp from "./m_F#";
 import m_G from "./m_G";
 import m_Gsharp from "./m_G#";
+import m9_D from "./m9_D";
 
 export default [
   major,
@@ -118,4 +119,5 @@ export default [
   m_Fsharp,
   m_G,
   m_Gsharp,
+  m9_D,
 ];
