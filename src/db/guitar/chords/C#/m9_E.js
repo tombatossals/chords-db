@@ -6,13 +6,13 @@ export default {
   {
     "frets": "cbbdcb",
     "fingers": "211431",
-    "barres": "1",
+    "barres": 11,
     "capo": true
   },
   {
     "frets": "cxbdcb",
     "fingers": "201431",
-    "barres": "2",
+    "barres": 11,
     "capo": true
   }
 ]

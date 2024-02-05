@@ -10,20 +10,18 @@ export default {
   {
     "frets": "xx0655",
     "fingers": "000211",
-    "barres": "4",
-    "capo": true
+    "barres": 5
   },
   {
     "frets": "x57655",
     "fingers": "013211",
-    "barres": "1",
+    "barres": 5,
     "capo": true
   },
   {
     "frets": "xx09a9",
     "fingers": "000121",
-    "barres": "3",
-    "capo": true
+    "barres": 9
   }
 ]
 };

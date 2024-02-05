@@ -14,13 +14,13 @@ export default {
   {
     "frets": "857555",
     "fingers": "413111",
-    "barres": "1",
+    "barres": 5,
     "capo": true
   },
   {
     "frets": "857755",
     "fingers": "412311",
-    "barres": "1",
+    "barres": 5,
     "capo": true
   }
 ]

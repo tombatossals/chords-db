@@ -18,7 +18,7 @@ export default {
   {
     "frets": "x35433",
     "fingers": "013211",
-    "barres": "1",
+    "barres": 3,
     "capo": true
   }
 ]
