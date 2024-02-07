@@ -2,6 +2,7 @@ import major from "./major";
 import minor from "./minor";
 import dim from "./dim";
 import dim7 from "./dim7";
+import sus from "./sus";
 import sus2 from "./sus2";
 import sus4 from "./sus4";
 import sus2sus4 from "./sus2sus4";
@@ -40,6 +41,7 @@ import mmaj7b5 from "./mmaj7b5";
 import mmaj9 from "./mmaj9";
 import mmaj11 from "./mmaj11";
 import add9 from "./add9";
+import add11 from "./add11";
 import madd9 from "./madd9";
 import m9_C from "./m9_C";
 import m9_F from "./m9_F";
@@ -72,6 +74,7 @@ export default [
   minor,
   dim,
   dim7,
+  sus,
   sus2,
   sus4,
   sus2sus4,
@@ -110,6 +113,7 @@ export default [
   mmaj9,
   mmaj11,
   add9,
+  add11,
   madd9,
   m9_C,
   m9_F,
