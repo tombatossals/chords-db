@@ -5,19 +5,19 @@ export default {
     {
       frets: '7566',
       fingers: '3122',
-      barres: 6
+      barres: 6,
     },
     {
       frets: '8565',
       fingers: '4121',
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
       frets: '8aa8',
       fingers: '1341',
       barres: 8,
-      capo: true
-    }
-  ]
+      capo: true,
+    },
+  ],
 };
