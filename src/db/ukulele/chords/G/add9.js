@@ -6,22 +6,22 @@ export default {
       frets: '2232',
       fingers: '1121',
       barres: 2,
-      capo: true
+      capo: true,
     },
     {
       frets: '4755',
       fingers: '1422',
-      barres: 5
+      barres: 5,
     },
     {
       frets: '797a',
       fingers: '1314',
       barres: 7,
-      capo: true
+      capo: true,
     },
     {
       frets: 'cbac',
-      fingers: '3214'
-    }
-  ]
+      fingers: '3214',
+    },
+  ],
 };

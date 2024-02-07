@@ -23,5 +23,5 @@ export default {
   Ab,
   A,
   Bb,
-  B
+  B,
 };

@@ -4,19 +4,19 @@ export default {
   positions: [
     {
       frets: 'x32100',
-      fingers: '032100'
+      fingers: '032100',
     },
     {
       frets: 'x36450',
-      fingers: '014230'
+      fingers: '014230',
     },
     {
       frets: '876500',
-      fingers: '432100'
+      fingers: '432100',
     },
     {
       frets: '8ba900',
-      fingers: '143200'
-    }
-  ]
+      fingers: '143200',
+    },
+  ],
 };
