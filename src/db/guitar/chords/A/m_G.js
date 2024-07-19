@@ -3,18 +3,22 @@ export default {
   suffix: 'm/G',
   positions: [
     {
+      frets: '302210',
+      fingers: '402310',
+    },
+    {
       frets: 'xx5555',
       fingers: '001111',
-      barres: 5
+      barres: 5,
+      capo: true,
     },
     {
-      frets: '302210',
-      fingers: '402310'
+      frets: '30221x',
+      fingers: '402310',
     },
     {
-      frets: '332555',
-      fingers: '231444',
-      barres: 5
-    }
-  ]
+      frets: 'xaa9ax',
+      fingers: '023140',
+    },
+  ],
 };

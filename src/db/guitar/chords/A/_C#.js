@@ -3,19 +3,28 @@ export default {
   suffix: '/C#',
   positions: [
     {
-      frets: 'x42255',
-      fingers: '031144',
-      barres: 2
-    },
-    {
       frets: 'x42225',
       fingers: '031114',
-      barres: 2
+      barres: 2,
+      capo: true,
     },
     {
-      frets: 'x47655',
-      fingers: '014322',
-      barres: 5
-    }
-  ]
+      frets: 'x42255',
+      fingers: '031144',
+      barres: 2,
+      capo: true,
+    },
+    {
+      frets: '9cb9a9',
+      fingers: '143121',
+      barres: 9,
+      capo: true,
+    },
+    {
+      frets: '9xx9a9',
+      fingers: '111121',
+      barres: 9,
+      capo: true,
+    },
+  ],
 };

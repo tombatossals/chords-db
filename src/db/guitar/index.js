@@ -9,5 +9,5 @@ export default {
   tunings,
   keys,
   suffixes,
-  chords
+  chords,
 };

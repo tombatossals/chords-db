@@ -6,19 +6,19 @@ export default {
       frets: '3636',
       fingers: '1314',
       barres: 3,
-      capo: true
+      capo: true,
     },
     {
       frets: '8769',
-      fingers: '3214'
+      fingers: '3214',
     },
     {
       frets: '0ab9',
-      fingers: '0231'
+      fingers: '0231',
     },
     {
       frets: 'baba',
-      fingers: '3142'
-    }
-  ]
+      fingers: '3142',
+    },
+  ],
 };

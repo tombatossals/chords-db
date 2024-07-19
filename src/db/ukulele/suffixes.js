@@ -44,5 +44,5 @@ export default [
   'mmaj9',
   'mmaj11',
   'add9',
-  'madd9'
+  'madd9',
 ];

@@ -4,21 +4,21 @@ export default {
   positions: [
     {
       frets: 'xx0312',
-      fingers: '000412'
+      fingers: '000412',
     },
     {
       frets: 'x545x6',
-      fingers: '021304'
+      fingers: '021304',
     },
     {
       frets: 'x58576',
       fingers: '014132',
       barres: 5,
-      capo: true
+      capo: true,
     },
     {
       frets: 'axabbx',
-      fingers: '102340'
-    }
-  ]
+      fingers: '102340',
+    },
+  ],
 };

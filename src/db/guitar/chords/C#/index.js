@@ -2,6 +2,7 @@ import major from './major';
 import minor from './minor';
 import dim from './dim';
 import dim7 from './dim7';
+import sus from './sus';
 import sus2 from './sus2';
 import sus4 from './sus4';
 import sus2sus4 from './sus2sus4';
@@ -25,6 +26,7 @@ import _13 from './13';
 import maj7 from './maj7';
 import maj7b5 from './maj7b5';
 import maj7sharp5 from './maj7#5';
+import maj7sus2 from './maj7sus2';
 import maj9 from './maj9';
 import maj11 from './maj11';
 import maj13 from './maj13';
@@ -39,13 +41,40 @@ import mmaj7b5 from './mmaj7b5';
 import mmaj9 from './mmaj9';
 import mmaj11 from './mmaj11';
 import add9 from './add9';
+import add11 from './add11';
 import madd9 from './madd9';
+import m9_B from './m9_B';
+import m9_E from './m9_E';
+
+import m_A from './m_A';
+import m_Ab from './m_Ab';
+import m_B from './m_B';
+import m_Bb from './m_Bb';
+import m_C from './m_C';
+import m_D from './m_D';
+import m_E from './m_E';
+import m_Eb from './m_Eb';
+import m_F from './m_F';
+import m_Fsharp from './m_F#';
+import m_G from './m_G';
+import _Ab from './_Ab';
+import _A from './_A';
+import _B from './_B';
+import _Bb from './_Bb';
+import _C from './_C';
+import _D from './_D';
+import _E from './_E';
+import _Eb from './_Eb';
+import _F from './_F';
+import _Fsharp from './_F#';
+import _G from './_G';
 
 export default [
   major,
   minor,
   dim,
   dim7,
+  sus,
   sus2,
   sus4,
   sus2sus4,
@@ -69,6 +98,7 @@ export default [
   maj7,
   maj7b5,
   maj7sharp5,
+  maj7sus2,
   maj9,
   maj11,
   maj13,
@@ -83,5 +113,31 @@ export default [
   mmaj9,
   mmaj11,
   add9,
-  madd9
+  add11,
+  madd9,
+  m9_B,
+  m9_E,
+
+  m_A,
+  m_Ab,
+  m_B,
+  m_Bb,
+  m_C,
+  m_D,
+  m_E,
+  m_Eb,
+  m_F,
+  m_Fsharp,
+  m_G,
+  _A,
+  _Ab,
+  _B,
+  _Bb,
+  _C,
+  _D,
+  _E,
+  _Eb,
+  _F,
+  _Fsharp,
+  _G,
 ];

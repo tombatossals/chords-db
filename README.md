@@ -4,7 +4,7 @@ Contributions are welcomed, still a lot of chords (and instruments) missing.
 Use the pull request feature of Github to add your desired chords if you want to contribute.
 
 Take a look at the chords database of an instrument to understand the schema used to register new chords.
-For example, let's take a look at the Csus2 chords of guitar. We can see this information in the C/sus2.js file:
+For example, let's take a look at the `Dsus2` chords of guitar. We can see this information in the `D/sus2.js` file:
 
 ```
 export default {
@@ -24,7 +24,7 @@ export default {
 
 ```
 
-Each *position* define a new chord variation of the Dsus2 chord.
+Each *position* define a new chord variation of the `Dsus2` chord.
 We must define the *frets* needed to obtain the chord in the respective strings.
 We can define too the *fingers* information for easy reading of the chord.
 If the chord need to barre some string, we will define if in the *barre* field. If
