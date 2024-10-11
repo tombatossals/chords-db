@@ -23,13 +23,13 @@ describe('ukulele Chords', () => {
   });
 
   describe(`Test Cmajor midi notes`, () => {
-    it(`Should match [ 67, 60, 64, 72 ]`, () => {
+    it(`Should match [ 72, 64, 67, 72 ]`, () => {
       const Cmajor = ukulele.chords.C.find((chord) => chord.suffix === 'major');
       const midiNotes = chord2midi(
         processString(Cmajor.positions[0].frets),
         ukulele.tunings['standard']
       );
-      const CmajorNotes = [67, 60, 64, 72];
+      const CmajorNotes = [72, 64, 67, 72];
       expect(JSON.stringify(midiNotes)).toEqual(JSON.stringify(CmajorNotes));
     });
   });
