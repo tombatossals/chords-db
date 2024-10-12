@@ -36,6 +36,7 @@ This project is using *yarn* as package manager, so all the basic command relate
 the project lifecycle are bound to it. Three basic commands
 
 ```
+yarn install
 yarn build
 ```
 Generates a new version of the library when new chords are added.
