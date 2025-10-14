@@ -85,15 +85,34 @@ const midiNumbers = [
   'B',
 ];
 
-const midiNote = (note) =>
-  (parseInt(note[1], 10) + 1) * 12 + midiNumbers.indexOf(note[0]);
+const midiNote = (note) => {
+  const noteMatch = note.match(/^([A-G]#?)(\d)$/);
+  
+  if (noteMatch) {
+    return (parseInt(noteMatch[2], 10) + 1) * 12 + midiNumbers.indexOf(noteMatch[1]);
+  } else {
+    return NaN;  // Return NaN if the note isn't recognized
+  }
+};
 
-const string2midi = (fret, string, tuning) =>
-  fret >= 0 ? midiNote(tuning[string]) + fret : -1;
 
-export const chord2midi = (frets, tuning) =>
-  frets
-    .map((fret, string) => string2midi(fret, string, tuning))
-    .filter((note) => note > 0);
+const string2midi = (fret, string, tuning) => {
+  if (fret >= 0) {
+    const midiNoteValue = midiNote(tuning[string]) + fret;
+    return midiNoteValue;
+  } else {
+    return -1; // For muted strings
+  }
+};
+
+export const chord2midi = (frets, tuning) => {
+  // Map the frets to MIDI notes
+  return frets
+    .map((fret, string) => {
+      const midiValue = string2midi(fret, string, tuning);
+      return midiValue;
+    })
+    .filter((note) => note > 0); // Filter out muted strings or invalid notes
+};
 
 export const getNoteFromMidiNumber = (number) => midiNumbers[number % 12];

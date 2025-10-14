@@ -1,0 +1,14 @@
+export default {
+  key: 'Gb',
+  suffix: 'maj11',
+  positions: [
+    {
+      frets: '1320',
+      fingers: '1320',
+    },
+    {
+      frets: 'b9bb',
+      fingers: '2134',
+    },
+  ],
+};
