@@ -1,0 +1,17 @@
+export default [
+  'major',
+  'minor',
+  '7',
+  'maj7',
+  'm7',
+  'm7b5',
+  'dim',
+  'dim7',
+  'sus4',
+  '7sus4',
+  'sus2',
+  '6',
+  'm6',
+  '9',
+  'add9',
+];

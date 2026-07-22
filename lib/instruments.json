@@ -1,1 +1,1 @@
-{"guitar":{"strings":6,"fretsOnChord":4,"name":"guitar","numberOfChords":3283},"ukulele":{"strings":4,"fretsOnChord":4,"name":"ukulele","numberOfChords":2114},"piano":{"name":"piano","keys":88,"fretsOnChord":null,"numberOfChords":528}}
+{"guitar":{"strings":6,"fretsOnChord":4,"name":"guitar","numberOfChords":3283},"ukulele":{"strings":4,"fretsOnChord":4,"name":"ukulele","numberOfChords":2114},"piano":{"name":"piano","keys":88,"fretsOnChord":null,"numberOfChords":528},"cavaquinho":{"strings":4,"fretsOnChord":4,"name":"cavaquinho","numberOfChords":1498}}
