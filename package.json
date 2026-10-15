@@ -9,7 +9,10 @@
     "build": "babel-node src/generate json",
     "precommit": "lint-staged",
     "prepublish": "npm run build",
-    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\""
+    "prettier": "prettier --single-quote --write \"src/**/*.{js,jsx}\"",
+    "test:coverage": "jest src --coverage --runInBand",
+    "audit:cavaquinho-suffixes": "node scripts/audit-cavaquinho-suffixes.js",
+    "audit:cavaquinho": "babel-node scripts/audit-cavaquinho-voicings.js"
   },
   "repository": {
     "type": "git",
@@ -30,13 +33,13 @@
   },
   "homepage": "https://github.com/tombatossals/chords-db#readme",
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
-    "@babel/preset-env": "^7.6.3",
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.7",
+    "@babel/node": "^8.0.6",
+    "@babel/preset-env": "^8.0.7",
     "husky": "^4.2.5",
     "jest": "^30.2.0",
-    "lint-staged": "^10.1.7",
+    "lint-staged": "^17.6.0",
     "prettier": "^2.0.5"
   },
   "jest": {

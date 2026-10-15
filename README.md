@@ -45,6 +45,27 @@ yarn test
 ```
 Make some testing of the new added chords. Very useful to detect basic mistakes.
 
+### Cavaquinho voicing validation
+
+The cavaquinho data is validated against deterministic interval formulas for the
+D-G-B-D tuning. Public positions cannot contain notes outside their chord formula.
+Rootless positions are retained only when they preserve the characteristic tones;
+one-tone omissions in diminished-seventh chords are marked as incomplete.
+
+The generated `aug`, `madd9`, and `mmaj7` positions are constrained to frets 0–12,
+three or four sounding strings, a maximum four-fret span, and at most four fingers.
+They are tagged as generated so consumers can distinguish their provenance.
+
+Run the reproducible audit with:
+
+```
+npm run audit:cavaquinho
+```
+
+The report includes frets, MIDI notes, omissions, additions, duplications,
+classification, provenance, and the decision applied to every normalized source
+position.
+
 ## How to use
 
 All this information is packed in a JSON library, that you can use to render visually
