@@ -35,6 +35,7 @@ jobs:
         run: >-
           npx jest --runInBand
           src/db/cavaquinho.test.js
+          src/db/cavaquinho.finger-placement.test.js
           src/db/cavaquinho.6.test.js
           src/db/cavaquinho.dim.test.js
           src/db/cavaquinho.dim7.test.js
