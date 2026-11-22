@@ -18,6 +18,7 @@ import aug7 from './aug7';
 import _9 from './9';
 import _9b5 from './9b5';
 import aug9 from './aug9';
+import aug7sharp9 from './aug7#9';
 import _7b9 from './7b9';
 import _7sharp9 from './7#9';
 import _11 from './11';
@@ -90,6 +91,7 @@ export default [
   _9,
   _9b5,
   aug9,
+  aug7sharp9,
   _7b9,
   _7sharp9,
   _11,

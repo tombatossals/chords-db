@@ -27,6 +27,18 @@ describe('Guitar Chords', () => {
     });
   });
 
+  it('includes all five tones in both Aaug7#9 positions', () => {
+    const suffix = 'aug7#9';
+    expect(guitar.suffixes).toContain(suffix);
+    const chord = guitar.chords.A.find((entry) => entry.suffix === suffix);
+    expect(chord).toBeDefined();
+    const notes = chord.positions.map((position) =>
+      chord2midi(processString(position.frets), guitar.tunings.standard)
+    );
+    expect(notes).toContainEqual([45, 55, 61, 65, 72]);
+    expect(notes).toContainEqual([45, 61, 65, 67, 72]);
+  });
+
   Object.keys(guitar.chords).map((key) =>
     describe(`Key ${key.replace('sharp', '#')}`, () => {
       const chords = guitar.chords[key];
